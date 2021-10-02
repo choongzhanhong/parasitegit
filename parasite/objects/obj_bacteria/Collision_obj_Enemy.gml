@@ -1,11 +1,20 @@
 /// @description collide with enemies
-// You can write your code in this editor
+// Should take damage
 
-//if bact is big enough, it will just straight away eat.
-with(other) {
-	if other.myDamage >= myHP {
-		instance_destroy()
+//If player is not being knocked back, get their ass
+with(other){
+	if not other.knockback {
+		other.knockback = true
+		//aim the bacteria opposite the enemy
+		other.direction = point_direction(x,y,other.x,other.y)
+		other.speed=10
+		other.sprite_index = other.sprites[2]
+		other.knockback_timer = 0.5 // second knockback
+		lives -= 1
+		if lives ==0 {
+			room_goto(End)
+			//todo:game over
+		}
 	}
 }
-
 

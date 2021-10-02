@@ -1,6 +1,9 @@
 /// @description Steps
 // You can write your code in this editor
 
+//MOVEMENT
+//you only get to move if you're not knocked back
+if not knockback {
 #region Movesment
 //Your Move Speed
 var move_speed_this_frame = move_speed*global.seconds_passed;
@@ -33,14 +36,35 @@ else {
 	//sprite_index = spr_bact_idle
 }
 #endregion
+}
+
+
+#region Knockback movement
+
+if knockback {
+	if speed != 0 {
+	speed -= 0.5
+	}
+	if speed<=0 {
+		speed = 0
+	}
+	knockback_timer -= global.seconds_passed //count down seconds
+ 	if knockback_timer <=0 {
+	knockback = false
+	speed = 0
+	}
+}
+#endregion
 
 #region combat
 //cooldown for lmb attack
 if cooldown_lmb_current <cooldown_lmb {
 	cooldown_lmb_current = cooldown_lmb_current + global.seconds_passed	//1 second each
 }
+
 //point towards mouse
 //image_angle = point_direction(x,y,mouse_x,mouse_y)
+//we use this for the aiming reticule
 #endregion
 
 #region player variable updating
@@ -50,5 +74,4 @@ myDamage = global.food*0.5 + 10
 myFood = global.food
 myTier = global.tier
 //do we want to keep checking each step?
-if myFood >=30 {sprite_index=spr_bact_tier1b} //could check tier in obj_game
 #endregion

@@ -1,7 +1,10 @@
 /// @description Movement
 // You can write your code in this editor
+if myHP <= 0 { instance_destroy()}
 
 if not knockback {
+	var move_xinput = 0;
+	var move_yinput = 0;
 	//Your Move Speed
 	var move_speed_this_frame = move_speed*global.seconds_passed;
     var this_angle = point_direction(x,y,obj_bacteria.x,obj_bacteria.y);
@@ -16,7 +19,16 @@ if not knockback {
     var move_dir = point_direction(0,0,move_xinput,move_yinput);
     move(move_speed_this_frame,  move_dir);
 }
-else {
-//GET KNOCKED BACK!
+else { //knockback friction
+	knockback_timer -= global.seconds_passed
+	if knockback_timer <= 0{
+	knockback = false
+	knockback_timer = 0
+	speed =0
+	}
+	speed -= 0.5
+	if speed <=0 {
+	speed = 0
+	}
 }
 

@@ -10,3 +10,7 @@ This section is to keep track of the player's FOOD and TIER.
 */
 global.food = 0; //MAX: 100 
 global.tier = 0;
+//Do i want to use global.food or obj_game.food ?
+
+paused = false
+
