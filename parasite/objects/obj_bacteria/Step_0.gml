@@ -28,12 +28,9 @@ for ( var i = 0; i < array_length_1d(movement_inputs); i++){
 }
 var moving = ( point_distance(0,0,move_xinput,move_yinput) > 0 );
 if moving  {
-	//sprite_index = spr_bact_moving
+	sprite_index = sprites[1]
     var move_dir = point_direction(0,0,move_xinput,move_yinput);
     move(move_speed_this_frame,  move_dir);
-}
-else {
-	//sprite_index = spr_bact_idle
 }
 #endregion
 }

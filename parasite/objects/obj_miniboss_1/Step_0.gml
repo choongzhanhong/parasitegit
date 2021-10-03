@@ -22,10 +22,10 @@ else {
 }
 
 
-if myHP <= 300 {
+if myHP <= 350 {
 	current_cooldown = 1 //enraged, fire rate increase	
 }
-if myHP <= 100 {
+if myHP <= 200 {
 	current_cooldown = 0.5 //enraged, fire rate increase	
 }
 if myHP <= 0 {

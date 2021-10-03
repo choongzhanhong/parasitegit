@@ -22,7 +22,6 @@
     {"id":{"name":"obj_plus","path":"objects/obj_plus/obj_plus.yy",},"order":8,},
     {"id":{"name":"spr_miniboss_1_angry","path":"sprites/spr_miniboss_1_angry/spr_miniboss_1_angry.yy",},"order":21,},
     {"id":{"name":"spr_attack","path":"sprites/spr_attack/spr_attack.yy",},"order":3,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
     {"id":{"name":"spr_miniboss_1_hit","path":"sprites/spr_miniboss_1_hit/spr_miniboss_1_hit.yy",},"order":20,},
     {"id":{"name":"obj_edible","path":"objects/obj_edible/obj_edible.yy",},"order":2,},
     {"id":{"name":"spr_wall_breakable","path":"sprites/spr_wall_breakable/spr_wall_breakable.yy",},"order":9,},
@@ -35,6 +34,7 @@
     {"id":{"name":"obj_miniboss_1","path":"objects/obj_miniboss_1/obj_miniboss_1.yy",},"order":7,},
     {"id":{"name":"spr_bact_hostile","path":"sprites/spr_bact_hostile/spr_bact_hostile.yy",},"order":7,},
     {"id":{"name":"spr_bact_hostile_kb","path":"sprites/spr_bact_hostile_kb/spr_bact_hostile_kb.yy",},"order":16,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":3,},
     {"id":{"name":"obj_enemy_bacteria","path":"objects/obj_enemy_bacteria/obj_enemy_bacteria.yy",},"order":1,},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":1,},
     {"id":{"name":"spr_aim","path":"sprites/spr_aim/spr_aim.yy",},"order":7,},
@@ -75,8 +75,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"End","path":"rooms/End/End.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

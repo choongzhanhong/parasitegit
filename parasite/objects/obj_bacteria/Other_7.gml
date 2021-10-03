@@ -6,6 +6,6 @@ if knockback {
 	sprite_index = sprites[2]
 }
 
-if (sprite_index == spriteTier[myTier][2]) {
-	sprite_index = spriteTier[myTier][0] //back to idle	
+else {
+	sprite_index = sprites[0] //back to idle	
 }
