@@ -9,5 +9,9 @@ with(other){ //other is player
 			lives +=1
 		}
 	}
+	
+	
+	//create eat particles
+	instance_create_layer(other.x,other.y,"Effects_Fg",obj_plus)
 }
 

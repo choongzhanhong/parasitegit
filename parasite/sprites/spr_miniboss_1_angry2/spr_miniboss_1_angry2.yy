@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 13,
-  "bbox_right": 82,
+  "bbox_left": 14,
+  "bbox_right": 83,
   "bbox_top": 19,
   "bbox_bottom": 121,
   "HTile": false,
@@ -103,12 +103,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"11b99547-9ccb-44ce-9012-e8f6e1008150","path":"sprites/spr_miniboss_1_angry/spr_miniboss_1_angry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"11b99547-9ccb-44ce-9012-e8f6e1008150","path":"sprites/spr_miniboss_1_angry/spr_miniboss_1_angry.yy",},"LayerId":{"name":"4baa1c0a-294f-4d7a-bb2e-a33bdb5672d6","path":"sprites/spr_miniboss_1_angry/spr_miniboss_1_angry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_miniboss_1_angry","path":"sprites/spr_miniboss_1_angry/spr_miniboss_1_angry.yy",},"resourceVersion":"1.0","name":"11b99547-9ccb-44ce-9012-e8f6e1008150","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"11b99547-9ccb-44ce-9012-e8f6e1008150","path":"sprites/spr_miniboss_1_angry2/spr_miniboss_1_angry2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"11b99547-9ccb-44ce-9012-e8f6e1008150","path":"sprites/spr_miniboss_1_angry2/spr_miniboss_1_angry2.yy",},"LayerId":{"name":"4baa1c0a-294f-4d7a-bb2e-a33bdb5672d6","path":"sprites/spr_miniboss_1_angry2/spr_miniboss_1_angry2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_miniboss_1_angry2","path":"sprites/spr_miniboss_1_angry2/spr_miniboss_1_angry2.yy",},"resourceVersion":"1.0","name":"11b99547-9ccb-44ce-9012-e8f6e1008150","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_miniboss_1_angry","path":"sprites/spr_miniboss_1_angry/spr_miniboss_1_angry.yy",},
+    "spriteId": {"name":"spr_miniboss_1_angry2","path":"sprites/spr_miniboss_1_angry2/spr_miniboss_1_angry2.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -120,7 +120,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6ed51618-2175-422e-b955-5b913c799f79","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"11b99547-9ccb-44ce-9012-e8f6e1008150","path":"sprites/spr_miniboss_1_angry/spr_miniboss_1_angry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4a3a528b-6129-42c5-9663-ca1f1cc913b2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"11b99547-9ccb-44ce-9012-e8f6e1008150","path":"sprites/spr_miniboss_1_angry2/spr_miniboss_1_angry2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -137,9 +137,9 @@
     "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_miniboss_1_angry","path":"sprites/spr_miniboss_1_angry/spr_miniboss_1_angry.yy",},
+    "parent": {"name":"spr_miniboss_1_angry2","path":"sprites/spr_miniboss_1_angry2/spr_miniboss_1_angry2.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_miniboss_1_angry",
+    "name": "spr_miniboss_1_angry2",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -152,7 +152,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_miniboss_1_angry",
+  "name": "spr_miniboss_1_angry2",
   "tags": [],
   "resourceType": "GMSprite",
 }

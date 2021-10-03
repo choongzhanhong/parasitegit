@@ -9,4 +9,4 @@ myHP=500;
 cooldown_attack = 0
 current_cooldown = 2
 
-sprites =[spr_miniboss_1,spr_miniboss_1_angry,spr_miniboss_1_hit]
+sprites =[spr_miniboss_1,spr_miniboss_1_angry,spr_miniboss_1_hit,spr_miniboss_1_angry2]
