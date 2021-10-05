@@ -10,9 +10,12 @@ with(other){
 		sprite_index = sprites[2]
 		lives -= 1
 		if lives ==0 {
-			room_goto(End)
+			sprite_index = sprites[3]
 	//todo:game over
 			}
 	}
 	instance_destroy(other) //destroy the projectile
 }
+
+//todo there is a lot in common with the obj_enemy code can make it better
+//todo if this inherits the knockback code from parent it's different from this. idk why

@@ -27,8 +27,8 @@ myFood = global.food
 
 #region Array of Sprites
 //0: idle; 1: moving; 2: knocked back
-spriteTier[0] = [spr_bact_idle, spr_bact_moving, spr_bact_kb]
-spriteTier[1] = [spr_bact_idle, spr_bact_moving, spr_bact_kb]
+spriteTier[0] = [spr_bact_idle, spr_bact_moving, spr_bact_kb, spr_bact_die]
+spriteTier[1] = [spr_bact_idle, spr_bact_moving, spr_bact_kb] // not in use currently
 spriteTier[2] = [spr_bact_tier1b, spr_bact_moving, spr_bact_kb]
 sprites = spriteTier[0]
 

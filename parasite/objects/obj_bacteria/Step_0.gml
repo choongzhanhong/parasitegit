@@ -3,7 +3,7 @@
 
 //MOVEMENT
 //you only get to move if you're not knocked back
-if not knockback {
+if not (knockback or sprite_index==sprites[3]) {
 #region Movesment
 //Your Move Speed
 var move_speed_this_frame = move_speed*global.seconds_passed;

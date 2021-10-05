@@ -11,8 +11,8 @@ with(other){
 		other.sprite_index = other.sprites[2]
 		other.knockback_timer = 0.5 // second knockback
 		lives -= 1
-		if lives ==0 {
-			room_goto(End)
+		if lives <=0 {
+			other.sprite_index = other.sprites[3]
 			//todo:game over
 		}
 	}

@@ -9,7 +9,7 @@ with(other){
 		sprite_index = sprites[2]
 		lives -=1
 		if lives ==0 {
-			room_goto(End)
+			room_goto(rm_end)
 	//todo:game over
 		}
 	}

@@ -10,7 +10,9 @@ with(other){ //other is player
 		}
 	}
 	
-	
+	if global.food == 200 {
+		room_goto(rm_win)
+	}
 	//create eat particles
 	instance_create_layer(other.x,other.y,"Effects_Fg",obj_plus)
 }

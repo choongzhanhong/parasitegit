@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+myMaxHP = 25
 myHP = 25
 move_speed = 10
 knockback = false

@@ -3,7 +3,7 @@
 
 global.seconds_passed = 0;
 
-window_set_size( 900, 900 ); //don't know if this is necessary
+//window_set_size( 900, 900 ); //don't know if this is necessary
 
 /*
 This section is to keep track of the player's FOOD and TIER.

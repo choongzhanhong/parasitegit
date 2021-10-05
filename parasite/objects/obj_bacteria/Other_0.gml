@@ -1,6 +1,6 @@
 /// @description change room
 // You can write your code in this editor
 
-if room = Room1{
-room_goto(End)
+if room == rm_1_1{
+room_goto(rm_1_2)
 }
