@@ -3,6 +3,7 @@
 with(other){ //other is player
 	//destroy the edible	
 	instance_destroy()
+	audio_play_sound(sound_edible_eaten, 3, false)
 	global.food+= 1
 	if global.food == 30 or global.food == 70 {
 		if lives <3 {
