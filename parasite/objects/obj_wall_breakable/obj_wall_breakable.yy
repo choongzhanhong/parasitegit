@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_wall",
-    "path": "sprites/spr_wall/spr_wall.yy",
+    "name": "spr_wall_breakable",
+    "path": "sprites/spr_wall_breakable/spr_wall_breakable.yy",
   },
   "solid": true,
   "visible": true,
