@@ -8,3 +8,5 @@ repeat(10) {
 	edible.speed = 1
 	
 }
+
+//This line is added by xingjian for testing purposes
