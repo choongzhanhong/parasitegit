@@ -8,5 +8,6 @@ if cooldown_lmb_current>=cooldown_lmb{
 	instance_destroy(obj_aim)
 	instance_create_layer(x,y,"Effects_Bg", obj_cooldown)
 	attack.image_angle = point_direction(x,y,mouse_x,mouse_y)
+	audio_play_sound(sound_player_melee_atk, 5, false)
 	cooldown_lmb_current=0
 }

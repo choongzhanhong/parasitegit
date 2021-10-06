@@ -5,6 +5,7 @@
 with(other){
 	if not other.knockback {
 		other.knockback = true
+		audio_play_sound(sound_player_dmg, 5, false)
 		//aim the bacteria opposite the enemy
 		other.direction = point_direction(x,y,other.x,other.y)
 		other.speed=10
