@@ -1,4 +1,4 @@
-# parasitegit
- source code for 3216 project
- 
- test pr change from xingjian
+# Parasite
+ This is a simple 2D shooter done under the National University of Singapore as part of a group project for NM3216(Game Design).
+
+ Parasite is developed using GameMaker Studio 2. To run the game, download GameMaker Studio 2 and import the folder parasite to your local computer. Open parasite.yyp in GameMaker Studio 2.
