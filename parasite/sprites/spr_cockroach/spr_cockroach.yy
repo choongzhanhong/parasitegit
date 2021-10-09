@@ -125,7 +125,7 @@
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"be6c8571-8248-406d-a15f-bb3fbc51e416","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"167cbcee-582d-44e1-8e2e-32963acab08b","path":"sprites/spr_cockroach/spr_cockroach.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6ecacdd5-2e9e-4630-8d49-037aad843bdf","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0a5a7b41-2095-4aa7-be0a-e1b5554a927f","path":"sprites/spr_cockroach/spr_cockroach.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -177,7 +177,7 @@
   },
   "parent": {
     "name": "LEGACY",
-    "path": "folders/Sprites/LEGACY.yy",
+    "path": "folders/Sprites/STAGE1/LEGACY.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_cockroach",

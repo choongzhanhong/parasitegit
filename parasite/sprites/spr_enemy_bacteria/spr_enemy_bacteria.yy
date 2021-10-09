@@ -50,7 +50,7 @@
             {"id":"9fb7bfdd-5902-41c6-8c85-9514ea2aca7c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"af74fcfe-9f0a-4bd5-bf7d-2d5242375e19","path":"sprites/spr_enemy_bacteria/spr_enemy_bacteria.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ec6e461f-593d-4ea6-97df-007beb15635a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f8fea12-bbde-4741-9e69-2e8dabcac54e","path":"sprites/spr_enemy_bacteria/spr_enemy_bacteria.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"869fe18c-909c-4621-984e-219b8bf41c93","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"249e20f0-eec6-4018-bc1c-748651b67c12","path":"sprites/spr_enemy_bacteria/spr_enemy_bacteria.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,7 +78,7 @@
   "nineSlice": null,
   "parent": {
     "name": "LEGACY",
-    "path": "folders/Sprites/LEGACY.yy",
+    "path": "folders/Sprites/STAGE1/LEGACY.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_enemy_bacteria",

@@ -3,16 +3,20 @@
 
 with(other)
 {
-	if not knockback {
+	if not (knockback or dead) {
 		knockback = true
 		knockback_timer=0.5
 		//aim the enemy opposite the attack
 		direction = point_direction(other.x,other.y,x,y)
-		speed=10
+		speed=10 - weight //knockback depending on weight
 		sprite_index = sprites[2]
 		
 		//deal damage to them, once per instance.
 		myHP -= obj_bacteria.myDamage
+		if myHP <= 0 {
+			dead = true
+			sprite_index = sprites[3]	
+		}
 	}
 	
 }

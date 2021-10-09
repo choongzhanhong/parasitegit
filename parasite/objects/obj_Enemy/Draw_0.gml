@@ -3,7 +3,7 @@
 
 draw_self()
 
-if knockback {
+if knockback and !dead {
 	if initial_knockback = true {
 		initial_knockback = false
 		audio_play_sound(sound_enemy_bacteria_dmg, 5, false)

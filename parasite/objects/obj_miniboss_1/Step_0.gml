@@ -11,7 +11,6 @@ else {
 	cooldown_attack -= global.seconds_passed	
 }
 
-speed = 0 //NEVER change the speed
 
 if knockback_timer > 0 {
 	knockback_timer -= global.seconds_passed	

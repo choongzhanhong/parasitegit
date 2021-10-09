@@ -16,4 +16,5 @@ for (var i=0; i<lives; i++) {
 //draw pause text
 if paused {
 	draw_text(500,500,"PAUSED")	
+	draw_text(500,600,"Press R to Restart")	
 }

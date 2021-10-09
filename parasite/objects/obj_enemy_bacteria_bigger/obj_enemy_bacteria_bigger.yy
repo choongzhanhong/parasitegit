@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bact_hostile_bigger",
-    "path": "sprites/spr_bact_hostile_bigger/spr_bact_hostile_bigger.yy",
+    "name": "spr_bact_hostile_bigger_idle",
+    "path": "sprites/spr_bact_hostile_bigger_idle/spr_bact_hostile_bigger_idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,7 +26,6 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

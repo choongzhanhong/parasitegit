@@ -36,7 +36,7 @@ if moving  {
 }
 
 
-#region Knockback movement
+#region Knockback and iFrames
 
 if knockback {
 	if speed != 0 {
@@ -51,17 +51,24 @@ if knockback {
 	speed = 0
 	}
 }
+
+if iframe_timer > 0 {
+	iframe_timer -= global.seconds_passed	
+}
+else {
+	iframe_timer = 0
+	instance_destroy(obj_iframe)
+}
 #endregion
 
 #region combat
 //cooldown for lmb attack
 if cooldown_lmb_current <cooldown_lmb {
-	cooldown_lmb_current = cooldown_lmb_current + global.seconds_passed	//1 second each
+	cooldown_lmb_current += global.seconds_passed	//1 second each
 }
-
-//point towards mouse
-//image_angle = point_direction(x,y,mouse_x,mouse_y)
-//we use this for the aiming reticule
+else {
+	cooldown_lmb_current = cooldown_lmb	//stop adding 
+}
 #endregion
 
 #region player variable updating

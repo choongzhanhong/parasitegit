@@ -149,7 +149,7 @@
   "nineSlice": null,
   "parent": {
     "name": "LEGACY",
-    "path": "folders/Sprites/LEGACY.yy",
+    "path": "folders/Sprites/STAGE1/LEGACY.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bg",

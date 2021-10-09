@@ -21,16 +21,16 @@ myDamage =global.food*0.5 + 10
 lives = 3
 knockback = false
 knockback_timer = 0 //seconds
+iframe_timer = 0
+
+dead = false
 myTier = global.tier
 myFood = global.food 
 //TODO: maybe just let it be tracked in obj_game
 
 #region Array of Sprites
-//0: idle; 1: moving; 2: knocked back
-spriteTier[0] = [spr_bact_idle, spr_bact_moving, spr_bact_kb, spr_bact_die]
-spriteTier[1] = [spr_bact_idle, spr_bact_moving, spr_bact_kb] // not in use currently
-spriteTier[2] = [spr_bact_tier1b, spr_bact_moving, spr_bact_kb]
-sprites = spriteTier[0]
+//0: idle; 1: moving; 2: knocked back, 3: die
+sprites = [spr_bact_idle, spr_bact_moving, spr_bact_kb, spr_bact_die]
 
 #endregion end array
 

@@ -160,8 +160,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "PLAYER",
+    "path": "folders/Sprites/STAGE1/PLAYER.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_plus",

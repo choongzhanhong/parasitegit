@@ -149,7 +149,7 @@
   "nineSlice": null,
   "parent": {
     "name": "PLAYER",
-    "path": "folders/Sprites/PLAYER.yy",
+    "path": "folders/Sprites/STAGE1/PLAYER.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_aim",

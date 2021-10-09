@@ -1,4 +1,4 @@
-/// @description bounce off wall
+/// @description hit wall
 // You can write your code in this editor
 
 with(other){

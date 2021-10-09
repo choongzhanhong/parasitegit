@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Stage1",
+    "path": "folders/Objects/Stage1.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_plus",

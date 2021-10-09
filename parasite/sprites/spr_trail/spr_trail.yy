@@ -172,8 +172,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Enemies",
+    "path": "folders/Sprites/STAGE1/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_trail",
