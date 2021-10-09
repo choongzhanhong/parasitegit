@@ -1,6 +1,7 @@
-/// @description Insert description here
+/// @description ATTACK
 // You can write your code in this editor
-if not (knockback or dead){
+if not dead {
+
 //keep counting 
 if current_cooldown > 0 {
 	current_cooldown -= global.seconds_passed	
@@ -9,11 +10,12 @@ else {
 	current_cooldown = cooldown_attack
 	attacking = !attacking
 }
+//It attacks when able
 
 //attacking
 if attacking {
-	//charging up
-	if current_cooldown>=2 {	
+	//charging up for 3s (4-1)
+	if current_cooldown>=1 {	
 		var move_xinput = 0;
 		var move_yinput = 0;
 		//Your Move Speed
@@ -38,7 +40,7 @@ if attacking {
 		
 		lockon = point_direction(x,y,obj_bacteria.x,obj_bacteria.y)
 	}
-	//charging at you
+	//charging at you for 1s
 	else {
 		var dx = lengthdir_x(3,lockon) //the resulting knockback location
 		var dy = lengthdir_y(5,lockon)
@@ -55,11 +57,16 @@ if attacking {
 }
 //not attacking
 else {
-	speed = 0
-	sprite_index = sprites[0]
+	
+	if not knockback{
+		sprite_index = sprites[4]
+		speed = 0
+	}
 }
-}
-else { //knockback friction
+
+
+//Knockback prevents attack
+if knockback { //knockback friction
 	//count down knockback
 	knockback_timer -= global.seconds_passed
 	if speed > 0 {speed -= 0.5}
@@ -71,5 +78,7 @@ else { //knockback friction
 	}
 	
 	//keep reducing speed if knocked back and speed above zero
+
+}
 
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_rat_0",
-    "path": "sprites/spr_rat_0/spr_rat_0.yy",
+    "name": "spr_rat_0a",
+    "path": "sprites/spr_rat_0a/spr_rat_0a.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,6 +26,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

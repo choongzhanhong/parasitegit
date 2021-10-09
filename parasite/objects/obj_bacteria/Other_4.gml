@@ -12,10 +12,20 @@ if room == rm_1_2 {
 //2nd stage
 if room == rm_2_1 {
 	obj_game.tier = 1
+	obj_game.food = 200
+	obj_game.maxfood = 5
+	
+	//make the player shoot faster now
+	cooldown_lmb = 0.8
+	
 	image_xscale = 1
 	image_yscale = 1
 	x = 100
 	y = 145
 	sprites = [spr_bact_2,spr_bact_2,spr_bact_2,spr_bact_2_die]
 	sprite_index = sprites[0]
+}
+
+if room == rm_2_2 {
+	x = 16	
 }
