@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "STAGE2",
-    "path": "folders/Sprites/STAGE2.yy",
+    "name": "BG",
+    "path": "folders/Sprites/STAGE2/BG.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_desk_bottom",

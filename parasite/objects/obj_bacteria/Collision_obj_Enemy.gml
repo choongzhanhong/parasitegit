@@ -15,7 +15,7 @@ with(other){
 		var dx = lengthdir_x(5,kb_dir) //the resulting knockback location
 		var dy = lengthdir_y(5,kb_dir)
 		//check if it will be stuck in wall 5 spaces away
-		if not place_meeting(other.x+dx,other.y+dy,obj_walls) { 
+		if place_free(other.x+dx,other.y+dy) { 
 			other.direction = kb_dir
 			other.speed=5
 		}

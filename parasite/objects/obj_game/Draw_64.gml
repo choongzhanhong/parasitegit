@@ -3,7 +3,7 @@
 
 
 if not (room==rm_menu or room==rm_end or room==rm_win) {
-var food = global.food //max is 200
+var food = obj_game.food //max is 200
 draw_healthbar(850,800, 900, 900, food/2, c_white, c_red, c_lime, 3, true, true)
 draw_text(850,900, "FOOD: "+string(food))
 
@@ -17,4 +17,8 @@ for (var i=0; i<lives; i++) {
 if paused {
 	draw_text(500,500,"PAUSED")	
 	draw_text(500,600,"Press R to Restart")	
+}
+
+else {
+	
 }

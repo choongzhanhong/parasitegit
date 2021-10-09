@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Stage1",
-    "path": "folders/Objects/Stage1.yy",
+    "name": "player",
+    "path": "folders/Objects/player.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_player_effects",

@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Stage1",
-    "path": "folders/Objects/Stage1.yy",
+    "name": "GLOBAL",
+    "path": "folders/Objects/GLOBAL.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_walls",

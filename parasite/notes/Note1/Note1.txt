@@ -1,0 +1,3 @@
+ctrl  + shift + f = find and replace!!
+
+DONT HAVE TO USE WITH OTHER TO REFERENCE YOURSELF

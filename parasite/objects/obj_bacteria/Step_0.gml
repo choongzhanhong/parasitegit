@@ -73,9 +73,6 @@ else {
 
 #region player variable updating
 //update player damage
-myDamage = global.food*0.5 + 10
-//Check tier and food
-myFood = global.food
-myTier = global.tier
-//do we want to keep checking each step?
+myDamage = obj_game.food*0.5 + 10
+
 #endregion

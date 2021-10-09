@@ -8,9 +8,10 @@ global.seconds_passed = 0;
 /*
 This section is to keep track of the player's FOOD and TIER.
 */
-global.food = 0; //MAX: 100 
-global.tier = 0;
-//Do i want to use global.food or obj_game.food ?
+
+obj_game.food = 0; //MAX: 100 
+obj_game.tier = 0;
+//Do i want to use obj_game.food or obj_game.food ?
 
 paused = false
-
+lives = 3

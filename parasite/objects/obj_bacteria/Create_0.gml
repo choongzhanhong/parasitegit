@@ -15,18 +15,14 @@ cooldown_lmb = 1 //1 seconds
 cooldown_lmb_current =1 
 
 //attack damage
-myDamage =global.food*0.5 + 10
+myDamage =obj_game.food*0.5 + 10
 
 //current HP and food level
-lives = 3
 knockback = false
 knockback_timer = 0 //seconds
 iframe_timer = 0
 
 dead = false
-myTier = global.tier
-myFood = global.food 
-//TODO: maybe just let it be tracked in obj_game
 
 #region Array of Sprites
 //0: idle; 1: moving; 2: knocked back, 3: die
@@ -35,4 +31,4 @@ sprites = [spr_bact_idle, spr_bact_moving, spr_bact_kb, spr_bact_die]
 #endregion end array
 
 //create the aim reticule
-instance_create_layer(x,y,"Effects_Bg",obj_aim)
+instance_create_layer(x,y,"Effects_Fg",obj_aim)
