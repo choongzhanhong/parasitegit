@@ -24,5 +24,7 @@ if not attacking{
 }
 
 else {
-	sprite_index = sprites[0]	
+	if sprite_index == sprites[1] {
+		sprite_index = sprites[0]
+	}
 }

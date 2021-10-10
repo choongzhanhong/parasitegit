@@ -8,4 +8,4 @@ current_cooldown = 0
 attacking = false
 
 //0: animated, 1: shadow, 2: landed attack
-sprites=[spr_hand_a, spr_hand_b, spr_hand_c]
+sprites=[spr_hand_a, spr_hand_b]

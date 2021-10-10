@@ -29,6 +29,10 @@
   ],
   "properties": [],
   "overriddenProperties": [],
+  "parent": {
+    "name": "PLAYER",
+    "path": "folders/Objects/Stage2/PLAYER.yy",
+  },
   "resourceVersion": "1.0",
   "name": "obj_projectile",
   "tags": [],

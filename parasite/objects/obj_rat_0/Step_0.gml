@@ -45,7 +45,7 @@ if attacking {
 		var dx = lengthdir_x(3,lockon) //the resulting knockback location
 		var dy = lengthdir_y(5,lockon)
 		//check if it will be stuck in wall 5 spaces away
-		if place_free(x+dx,y+dy) { 
+		if place_free(x+dx,y+dy) and !place_meeting(x+dx, y+dy, obj_Enemy) { 
 			direction = lockon
 			speed=3
 		}
