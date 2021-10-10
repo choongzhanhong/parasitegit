@@ -1,9 +1,6 @@
 {
-  "spriteId": {
-    "name": "spr_cage",
-    "path": "sprites/spr_cage/spr_cage.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -24,11 +21,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Walls",
-    "path": "folders/Objects/Stage2/Walls.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Stage1/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_cage",
+  "name": "obj_enemy_attacks",
   "tags": [],
   "resourceType": "GMObject",
 }

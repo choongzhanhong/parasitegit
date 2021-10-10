@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_cage",
-    "path": "sprites/spr_cage/spr_cage.yy",
+    "name": "spr_hand_c",
+    "path": "sprites/spr_hand_c/spr_hand_c.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_enemy_attacks",
+    "path": "objects/obj_enemy_attacks/obj_enemy_attacks.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,15 +23,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Walls",
-    "path": "folders/Objects/Stage2/Walls.yy",
+    "name": "ENEMY",
+    "path": "folders/Objects/Stage2/ENEMY.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_cage",
+  "name": "obj_hand_attack",
   "tags": [],
   "resourceType": "GMObject",
 }

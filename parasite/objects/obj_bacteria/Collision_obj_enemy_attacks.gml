@@ -30,7 +30,5 @@ with(other){
 			
 		}
 	}
-	//Destroy the projectile
-	instance_destroy(self)
 }
 

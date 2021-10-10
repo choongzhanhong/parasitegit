@@ -10,3 +10,7 @@ if room == rm_1_1{
 if room == rm_2_1 {
 	room_goto(rm_2_2)	
 }
+
+if room == rm_2_2 {
+	room_goto(rm_end)	
+}
