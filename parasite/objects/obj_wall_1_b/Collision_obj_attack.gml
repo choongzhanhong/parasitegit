@@ -2,5 +2,6 @@
 // You can write your code in this editor
 
 if obj_game.food >= threshold {
-instance_destroy()
+	audio_play_sound(sound_breakable_wall_destroy, 5, false)
+	instance_destroy()
 }
