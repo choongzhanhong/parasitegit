@@ -23,7 +23,9 @@
     {"id":{"name":"obj_wall_1_b","path":"objects/obj_wall_1_b/obj_wall_1_b.yy",},"order":1,},
     {"id":{"name":"seq_transform_1","path":"sequences/seq_transform_1/seq_transform_1.yy",},"order":0,},
     {"id":{"name":"spr_BUTON_1","path":"sprites/spr_BUTON_1/spr_BUTON_1.yy",},"order":11,},
+    {"id":{"name":"rm_boss_test","path":"rooms/rm_boss_test/rm_boss_test.yy",},"order":8,},
     {"id":{"name":"spr_rat_1b","path":"sprites/spr_rat_1b/spr_rat_1b.yy",},"order":7,},
+    {"id":{"name":"obj_boss_projectile","path":"objects/obj_boss_projectile/obj_boss_projectile.yy",},"order":9,},
     {"id":{"name":"spr_rat_0e","path":"sprites/spr_rat_0e/spr_rat_0e.yy",},"order":4,},
     {"id":{"name":"spr_edible_1","path":"sprites/spr_edible_1/spr_edible_1.yy",},"order":2,},
     {"id":{"name":"spr_life","path":"sprites/spr_life/spr_life.yy",},"order":8,},
@@ -151,6 +153,7 @@
     {"roomId":{"name":"rm_2_2","path":"rooms/rm_2_2/rm_2_2.yy",},},
     {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"roomId":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
+    {"roomId":{"name":"rm_boss_test","path":"rooms/rm_boss_test/rm_boss_test.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

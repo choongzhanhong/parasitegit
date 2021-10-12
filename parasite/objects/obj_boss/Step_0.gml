@@ -12,24 +12,24 @@
 //}
 
 
-if knockback_timer > 0 {
-	knockback_timer -= global.seconds_passed	
-}
-else {
-	knockback = false
-	knockback_timer = 0	
-}
+//if knockback_timer > 0 {
+//	knockback_timer -= global.seconds_passed	
+//}
+//else {
+//	knockback = false
+//	knockback_timer = 0	
+//}
 
 
-if myHP <= 350 {
-	current_cooldown = 1 //enraged, fire rate increase	
-}
-if myHP <= 200 {
-	current_cooldown = 0.5 //enraged, fire rate increase	
-}
-if myHP <= 0 {
-	instance_destroy()
-}
+//if myHP <= 350 {
+//	current_cooldown = 1 //enraged, fire rate increase	
+//}
+//if myHP <= 200 {
+//	current_cooldown = 0.5 //enraged, fire rate increase	
+//}
+//if myHP <= 0 {
+//	instance_destroy()
+//}
 
 
 //control spread angles 
@@ -50,8 +50,7 @@ if (shoot=0) {//fire rate control
             bullet.direction = base_angle+(b_ang*i)+(a_ang*j)+start_angle;//give that bullet the desired direction
             bullet.image_angle = base_angle+(b_ang*i)+(a_ang*j)+start_angle;//set the bullet's image_angle so it faces the same direction
             bullet.speed = bullet_speed;//give the bullet the desired speed
-            bullet.accel = bullet_accel;
-            bullet.curve = bullet_curve;
+            bullet.acc = bullet_accel;
         }
     }
     
