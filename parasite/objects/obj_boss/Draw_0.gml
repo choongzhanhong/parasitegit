@@ -1,10 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
 //i suppose this is needed
 draw_self()
-
+/***************************************************
 if knockback {
 	
 	if initial_knockback = true {
@@ -17,3 +16,5 @@ if knockback {
 } else {
 	initial_knockback = true
 }
+
+***************************************************/
