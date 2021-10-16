@@ -22,7 +22,7 @@ bullet_accel - determines how quickly the bullet will accelerate or decelerate
 
 bullet_object = obj_boss_projectile;
 bullet_speed = 2;
-bullet_accel = -0.01;
+bullet_accel = 0;
 
 /***************************************************
 bullets - total number of bullets per bullet array
@@ -49,20 +49,20 @@ y offset - the vertical offset from the object's y origin
 base_angle = 0;
 shoot = 0
 
-bullets = 2;
-spread = 180;
+bullets = 4;
+spread = 30;
 
 start_angle = 0;
 
-total_arrays = 1;//3;
-array_spread = 0;//240;
+total_arrays = 3;//3;
+array_spread = 240;//240;
 
-spin = 8;
+spin = 5;
 spin_mod = 0;
 spin_rev = 0;
 max_spin_spd = 0;
 
-fire_rate = 10;
+fire_rate = 20;
 
 object_width = 0;
 object_height = 0;
