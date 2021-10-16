@@ -5,7 +5,13 @@
 lives = 3
 
 if room == rm_2 {
-		
+	x = 112
+	y = 15
+}
+
+if room == rm_3 {
+	x=303
+	y=593
 }
 
 
