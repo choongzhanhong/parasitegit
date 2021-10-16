@@ -7,7 +7,7 @@ var food_percentage = food/maxfood //max is 200
 draw_healthbar(850,800, 900, 900, food_percentage, c_white, c_red, c_lime, 3, true, true)
 draw_text(850,900, "FOOD: "+string(food))
 
-draw_text(80,80, "LIVES")
+//draw_text(80,80, "LIVES")
 for (var i=0; i<lives; i++) {
 	draw_sprite(spr_life,0,64 + (i*64), 64)	
 	}
