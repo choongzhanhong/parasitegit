@@ -9,7 +9,7 @@ draw_text(850,900, "FOOD: "+string(food))
 
 draw_text(80,80, "LIVES")
 for (var i=0; i<lives; i++) {
-	draw_sprite(spr_life,3,64 + (i*64), 64)	
+	draw_sprite(spr_life,0,64 + (i*64), 64)	
 	}
 
 draw_text(80,100,"DNA: "+string(obj_game.tier))
