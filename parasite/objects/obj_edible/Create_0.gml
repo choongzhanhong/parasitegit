@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 direction = random(360)
-speed = 1
+speed = 0.5

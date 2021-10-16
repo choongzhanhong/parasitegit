@@ -11,8 +11,8 @@ movement_inputs[2] = ord("A");
 movement_inputs[3] = ord("S");
 
 //Cooldowns
-cooldown_lmb = 1 //1 seconds
-cooldown_lmb_current =1 
+cooldown_lmb = 1//in seconds
+cooldown_lmb_current =1
 
 //attack damage
 myDamage =obj_game.food*0.5 + 10

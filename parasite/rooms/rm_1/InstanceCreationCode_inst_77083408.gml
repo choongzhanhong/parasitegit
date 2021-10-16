@@ -1,0 +1,1 @@
+Message = "The door shows how much DNA you need. Go collect them!"
