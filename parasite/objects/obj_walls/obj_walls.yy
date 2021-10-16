@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GLOBAL",
-    "path": "folders/Objects/GLOBAL.yy",
+    "name": "Walls",
+    "path": "folders/Objects/GLOBAL/Walls.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_walls",

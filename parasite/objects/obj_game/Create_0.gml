@@ -17,7 +17,10 @@ maxfood = 2;
 //Tier 3: max 2000
 
 tier = 0;
-//Do i want to use obj_game.food or obj_game.food ?
 
 paused = false
 lives = 3
+
+
+//make all text centered
+draw_set_halign(fa_center);
