@@ -46,6 +46,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_bacteria","path":"objects/obj_enemy_bacteria/obj_enemy_bacteria.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1136.0,"y":391.0,"resourceVersion":"1.0","name":"inst_4BD39CFF","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_bacteria","path":"objects/obj_enemy_bacteria/obj_enemy_bacteria.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1204.0,"y":534.0,"resourceVersion":"1.0","name":"inst_F10C458","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_bacteria","path":"objects/obj_enemy_bacteria/obj_enemy_bacteria.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1134.0,"y":588.0,"resourceVersion":"1.0","name":"inst_2C2D28F7","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_ring","path":"objects/obj_enemy_ring/obj_enemy_ring.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":512.0,"resourceVersion":"1.0","name":"inst_58218F20","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Entities","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_dna","path":"objects/obj_dna/obj_dna.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":752.0,"y":112.0,"resourceVersion":"1.0","name":"inst_EA50696_1","tags":[],"resourceType":"GMRInstance",},
@@ -223,6 +224,7 @@
     {"name":"inst_4BD39CFF","path":"rooms/rm_2/rm_2.yy",},
     {"name":"inst_F10C458","path":"rooms/rm_2/rm_2.yy",},
     {"name":"inst_2C2D28F7","path":"rooms/rm_2/rm_2.yy",},
+    {"name":"inst_58218F20","path":"rooms/rm_2/rm_2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
