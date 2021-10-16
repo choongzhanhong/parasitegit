@@ -44,6 +44,7 @@
     {"id":{"name":"spr_rat_1e","path":"sprites/spr_rat_1e/spr_rat_1e.yy",},"order":10,},
     {"id":{"name":"obj_cooldown","path":"objects/obj_cooldown/obj_cooldown.yy",},"order":3,},
     {"id":{"name":"obj_life","path":"objects/obj_life/obj_life.yy",},"order":6,},
+    {"id":{"name":"obj_enemy_ring","path":"objects/obj_enemy_ring/obj_enemy_ring.yy",},"order":5,},
     {"id":{"name":"spr_rat_0b","path":"sprites/spr_rat_0b/spr_rat_0b.yy",},"order":3,},
     {"id":{"name":"spr_desk_bottom","path":"sprites/spr_desk_bottom/spr_desk_bottom.yy",},"order":1,},
     {"id":{"name":"spr_enemy_shooter","path":"sprites/spr_enemy_shooter/spr_enemy_shooter.yy",},"order":16,},
