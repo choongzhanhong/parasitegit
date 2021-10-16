@@ -4,6 +4,15 @@
 //always start room with max lives
 lives = 3
 
+if room == rm_2 {
+		
+}
+
+
+
+
+
+//old
 //change y var 
 if room == rm_1_2 {
 	y = 16

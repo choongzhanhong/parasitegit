@@ -10,7 +10,7 @@ with(other){
 		other.knockback_timer = 0.5 // knockback in seconds
 		
 		//aim the bacteria opposite the enemy [0,360)
-		var kb_dir = point_direction(x+16,y+16,other.x,other.y)
+		var kb_dir = point_direction(x,y,other.x,other.y)
 		var dx = lengthdir_x(5,kb_dir) //the resulting knockback location
 		var dy = lengthdir_y(5,kb_dir)
 		//check if it will be stuck in wall 5 spaces away

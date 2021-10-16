@@ -1,6 +1,8 @@
 /// @description change room
 // You can write your code in this editor
-
+if room == rm_1 {
+	room_goto(rm_2)	
+}
 
 
 if room == rm_1_1{

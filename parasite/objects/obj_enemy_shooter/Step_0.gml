@@ -2,10 +2,8 @@
 // You can write your code in this editor
 
 if current_cooldown <= 0 {
-	//facing right ? left
-	var dx = (image_angle==0) ? 32 : -32
-	var dy = (image_angle==0) ? 16 : -16
-	var attack = instance_create_layer(x+dx,y+dy,"Effects_Fg",obj_miniboss_projectile)
+
+	var attack = instance_create_layer(x,y,"Effects_Fg",obj_miniboss_projectile)
 	attack.direction = image_angle
 	attack.speed = 2
 	current_cooldown = cooldown_attack//it will fire every current_cooldown seconds.
