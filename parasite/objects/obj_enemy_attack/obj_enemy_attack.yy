@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_attack_tier1b",
-    "path": "sprites/spr_attack_tier1b/spr_attack_tier1b.yy",
+    "name": "spr_enemy_attack",
+    "path": "sprites/spr_enemy_attack/spr_enemy_attack.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Enemies",
-    "path": "folders/Objects/Stage1/Enemies.yy",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_enemy_attack",

@@ -2,7 +2,8 @@
 // You can write your code in this editor
 with(other)
 {
-	if not dead {
+	if not dead or knockback {
+		speed = 0
 		knockback = true
 		knockback_timer=0.5
 		//aim the enemy opposite the attack

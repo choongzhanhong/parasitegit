@@ -6,7 +6,12 @@ if not (knockback or dead) {
 	if not collision_line(x,y,obj_bacteria.x,obj_bacteria.y,obj_walls,false,false) {
 		sprite_index = sprites[1]
 		mp_potential_step_object(obj_bacteria.x, obj_bacteria.y,0.3, obj_hazard)
-		
+		if (direction > 90 and direction < 270 ){
+			image_xscale = -1	
+		}
+		else {
+			image_xscale = 1	
+		}
 		//#region old movement
 		//var move_xinput = 0;
 		//var move_yinput = 0;

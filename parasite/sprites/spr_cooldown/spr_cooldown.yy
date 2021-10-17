@@ -102,7 +102,7 @@
   "nineSlice": null,
   "parent": {
     "name": "PLAYER",
-    "path": "folders/Sprites/STAGE1/Enemies/PLAYER.yy",
+    "path": "folders/Sprites/PLAYER.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_cooldown",
