@@ -1,6 +1,5 @@
 /// @description Insert description here
-// You can write your code in this editor
-
+// You can write your code in this 
 
 //if dead
 if sprite_index = sprites[3] {

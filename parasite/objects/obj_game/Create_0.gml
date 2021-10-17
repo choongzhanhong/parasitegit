@@ -10,7 +10,7 @@ This section is to keep track of the player's FOOD and TIER.
 */
 
 food = 0;
-maxfood = 2;
+maxfood = 40;
 //Tier 0: max 200
 //Tier 1: max 500
 //Tier 2: max 1000

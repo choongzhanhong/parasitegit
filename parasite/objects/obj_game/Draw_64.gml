@@ -3,7 +3,7 @@
 
 
 if (room==rm_1 or room==rm_2 or room==rm_3)  {
-var food_percentage = food/maxfood //max is 200
+var food_percentage = (food%maxfood)/maxfood*100 //max is 40
 draw_healthbar(850,800, 900, 900, food_percentage, c_white, c_red, c_lime, 3, true, true)
 draw_text(850,900, "FOOD: "+string(food))
 

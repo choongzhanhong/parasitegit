@@ -6,6 +6,7 @@ if not (knockback or dead) {
 	if not collision_line(x,y,obj_bacteria.x,obj_bacteria.y,obj_walls,false,false) {
 		sprite_index = sprites[1]
 		mp_potential_step_object(obj_bacteria.x, obj_bacteria.y,0.3, obj_hazard)
+		sprite_index = sprites[1]
 		if (direction > 90 and direction < 270 ){
 			image_xscale = -1	
 		}
@@ -30,6 +31,10 @@ if not (knockback or dead) {
 		//var move_dir = point_direction(0,0,move_xinput,move_yinput);
 		//move(move_speed_this_frame, move_dir);
 		//#endregion
+	}
+	else //not moving
+	{
+		sprite_index = sprites[0]
 	}
 }
 else { //knockback friction
