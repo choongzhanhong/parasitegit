@@ -73,6 +73,6 @@ else {
 
 #region player variable updating
 //update player damage
-myDamage = obj_game.food*0.5 + 10
+myDamage = obj_game.food*0.2 + 10
 
 #endregion

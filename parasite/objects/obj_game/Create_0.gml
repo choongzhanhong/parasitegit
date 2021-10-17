@@ -24,3 +24,5 @@ lives = 3
 
 //make all text centered
 draw_set_halign(fa_center);
+
+checkpoint = rm_1

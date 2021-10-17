@@ -4,8 +4,9 @@
 if not (knockback or dead) {
 	//if there is line of sight
 	if not collision_line(x,y,obj_bacteria.x,obj_bacteria.y,obj_walls,false,false) {
-
+		sprite_index = sprites[1]
 		mp_potential_step_object(obj_bacteria.x, obj_bacteria.y,0.3, obj_hazard)
+		
 		//#region old movement
 		//var move_xinput = 0;
 		//var move_yinput = 0;

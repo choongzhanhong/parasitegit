@@ -11,6 +11,7 @@ with(other){ //other is player
 			instance_create_layer(x,y,"Effects_Fg", obj_life)
 		}
 	}
+	instance_create_layer(other.x,other.y,"Effects_Fg",obj_plus)
 }
 //	//SIZE UP THE CHARACTER
 //	other.image_xscale *= 1.005 //1.01 to 1.005 good
@@ -23,6 +24,6 @@ with(other){ //other is player
 //		instance_deactivate_object(obj_bacteria)
 //	}
 //	//create eat particles
-//	instance_create_layer(other.x,other.y,"Effects_Fg",obj_plus)
+//	
 //}
 

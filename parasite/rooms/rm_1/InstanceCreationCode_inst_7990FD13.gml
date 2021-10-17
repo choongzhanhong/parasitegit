@@ -1,1 +1,1 @@
-Message = "Be careful here..."
+Message = "You can try attacking those projectiles, but be careful!"
