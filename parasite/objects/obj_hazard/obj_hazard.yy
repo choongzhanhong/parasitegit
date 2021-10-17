@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_hazard",
-    "path": "sprites/spr_hazard/spr_hazard.yy",
+    "name": "spr_hazard_acid",
+    "path": "sprites/spr_hazard_acid/spr_hazard_acid.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Walls",
-    "path": "folders/Objects/GLOBAL/Walls.yy",
+    "path": "folders/Objects/Walls.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_hazard",
