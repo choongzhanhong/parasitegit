@@ -1,6 +1,9 @@
 /// @description sprite
 // You can write your code in this editor
 
+
+sprite_index = sprites[0] // temporary set as one sprite until sprite assets are done
+/**
 if knockback {
 	sprite_index = sprites[2] //knockback	
 }
@@ -14,3 +17,4 @@ else if myHP > 200{ //angry
 else { //super angry
 	sprite_index = sprites[3]	
 }
+**/
