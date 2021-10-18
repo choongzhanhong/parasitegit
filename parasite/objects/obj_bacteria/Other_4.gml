@@ -4,12 +4,18 @@
 //always start room with max lives
 lives = 3
 
+
+
 if room == rm_2 {
+	//create aim reticle again
+instance_create_layer(x,y,"Effects_Fg",obj_aim)
 	x = 112
 	y = 15
 }
 
 if room == rm_3 {
+	//create aim reticle again
+instance_create_layer(x,y,"Effects_Fg",obj_aim)
 	x=303
 	y=593
 }
