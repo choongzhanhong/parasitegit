@@ -21,16 +21,6 @@
 //}
 
 
-//if myHP <= 350 {
-//	current_cooldown = 1 //enraged, fire rate increase	
-//}
-//if myHP <= 200 {
-//	current_cooldown = 0.5 //enraged, fire rate increase	
-//}
-//if myHP <= 0 {
-//	instance_destroy()
-//}
-
 
 //control spread angles 
 bb = max(1,bullets-1);
@@ -69,4 +59,50 @@ shoot += 1;//fire rate control
 
 if (shoot >= fire_rate) {//once shoot reaches our fire rate
     shoot = 0;//set it to 0 to shoot again
+}
+
+
+if (myHP > 250) {
+	if (ring_shoot=0) {
+		ring_shoot += 1;
+		for (var i=0;i<20;i++) {//loop for each bullet
+			//determine the point where the bullets will fire from
+			xx = x+lengthdir_x(0,18*i);
+			yy = y+lengthdir_y(0,18*i);
+            
+			bullet = instance_create_layer(xx,yy,"Effects_Fg",bullet_object);//create a bullet at the desired location
+			bullet.direction = 18*i;//give that bullet the desired direction
+			bullet.image_angle = 18*i;//set the bullet's image_angle so it faces the same direction
+			bullet.speed = 1.5;//give the bullet the desired speed
+		}
+	}
+
+	ring_shoot += 1;//fire rate control
+
+	if (ring_shoot >= ring_shoot_rate) {//once shoot reaches our fire rate
+	    ring_shoot = 0;//set it to 0 to shoot again
+	}
+}
+
+if (myHP < 500) && (myHP > 250) {
+	bullets = 4;
+	spread = 30;
+}
+
+if (myHP <= 250) {
+	bullet_accel = -0.01;
+	
+	bullets = 2;
+	spread = 180;
+	
+	total_arrays = 1;
+	array_spread = 0;
+	
+	spin = 8;
+	
+	fire_rate = 10;
+}
+
+if myHP <= 0 {
+	instance_destroy()
 }

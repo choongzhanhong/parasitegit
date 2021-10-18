@@ -1,6 +1,6 @@
 /// @description sprite
 // You can write your code in this editor
-/***************************************************
+
 if knockback {
 	sprite_index = sprites[2] //knockback	
 }
@@ -14,4 +14,3 @@ else if myHP > 200{ //angry
 else { //super angry
 	sprite_index = sprites[3]	
 }
-***************************************************/
