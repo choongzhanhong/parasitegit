@@ -72,6 +72,5 @@ y_offset = 0;
 b_ang = spread/bullets;
 
 
-
 ring_shoot_rate = 400;
 ring_shoot = 0;
