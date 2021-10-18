@@ -1,7 +1,7 @@
 /// @description change room
 // You can write your code in this editor
 if room == rm_1 {
-	room_goto(rm_2)	
+	room_goto(rm_3)	
 }
 if room == rm_2 {
 	room_goto(rm_3)	

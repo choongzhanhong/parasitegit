@@ -1,6 +1,6 @@
 /// @description CREATE MINIBOSS
 // You can write your code in this editor
-/***************************************************
+
 knockback = false;
 initial_knockback = true;
 knockback_timer = 0;
@@ -11,7 +11,7 @@ cooldown_attack = 0;
 current_cooldown = 2;
 dead = false;
 weight = 10; //effectively means it wont get knocked back
-***************************************************/
+
 sprites =[spr_miniboss_1,spr_miniboss_1_angry,spr_miniboss_1_hit,spr_miniboss_1_angry2];
 
 /***************************************************
@@ -49,13 +49,13 @@ y offset - the vertical offset from the object's y origin
 base_angle = 0;
 shoot = 0
 
-bullets = 4;
-spread = 30;
+bullets = 1;
+spread = 0;
 
 start_angle = 0;
 
-total_arrays = 3;//3;
-array_spread = 240;//240;
+total_arrays = 3;
+array_spread = 240;
 
 spin = 5;
 spin_mod = 0;
@@ -70,3 +70,8 @@ x_offset = 0;
 y_offset = 0; 
 
 b_ang = spread/bullets;
+
+
+
+ring_shoot_rate = 400;
+ring_shoot = 0;

@@ -180,7 +180,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_boss_test","path":"rooms/rm_boss_test/rm_boss_test.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
     {"roomId":{"name":"rm_2","path":"rooms/rm_2/rm_2.yy",},},
@@ -191,6 +190,7 @@
     {"roomId":{"name":"rm_1_2","path":"rooms/rm_1_2/rm_1_2.yy",},},
     {"roomId":{"name":"rm_2_1","path":"rooms/rm_2_1/rm_2_1.yy",},},
     {"roomId":{"name":"rm_2_2","path":"rooms/rm_2_2/rm_2_2.yy",},},
+    {"roomId":{"name":"rm_boss_test","path":"rooms/rm_boss_test/rm_boss_test.yy",},},
     {"roomId":{"name":"rm_instructions","path":"rooms/rm_instructions/rm_instructions.yy",},},
   ],
   "Folders": [
