@@ -160,8 +160,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Sprites/Enemies.yy",
+    "name": "bigger_bact",
+    "path": "folders/Sprites/Enemies/bigger_bact.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bact_hostile_bigger_moving",
