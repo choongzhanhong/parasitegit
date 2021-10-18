@@ -20,7 +20,7 @@ bullet_speed - determines how fast the bullets will move
 bullet_accel - determines how quickly the bullet will accelerate or decelerate
 ***************************************************/
 
-bullet_object = obj_boss_projectile;
+bullet_object = obj_miniboss_projectile;
 bullet_speed = 2;
 bullet_accel = 0;
 

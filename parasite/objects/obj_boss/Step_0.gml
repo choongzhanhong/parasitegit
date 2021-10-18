@@ -12,13 +12,13 @@
 //}
 
 
-//if knockback_timer > 0 {
-//	knockback_timer -= global.seconds_passed	
-//}
-//else {
-//	knockback = false
-//	knockback_timer = 0	
-//}
+if knockback_timer > 0 {
+	knockback_timer -= global.seconds_passed	
+}
+else {
+	knockback = false
+	knockback_timer = 0	
+}
 
 
 
