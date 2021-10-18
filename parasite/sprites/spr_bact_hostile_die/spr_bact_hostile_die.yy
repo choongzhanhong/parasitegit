@@ -89,8 +89,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Sprites/Enemies.yy",
+    "name": "small_bact",
+    "path": "folders/Sprites/Enemies/small_bact.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bact_hostile_die",
