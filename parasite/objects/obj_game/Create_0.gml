@@ -25,4 +25,6 @@ lives = 3
 //make all text centered
 draw_set_halign(fa_center);
 
-checkpoint = rm_1
+if not variable_global_exists("checkpoint") {
+	global.checkpoint = rm_1
+}
