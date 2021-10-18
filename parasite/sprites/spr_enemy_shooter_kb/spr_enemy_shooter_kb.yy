@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Enemies",
-    "path": "folders/Sprites/STAGE1/Enemies.yy",
+    "path": "folders/Sprites/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_enemy_shooter_kb",

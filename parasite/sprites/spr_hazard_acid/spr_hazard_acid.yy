@@ -105,8 +105,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "entities",
-    "path": "folders/Sprites/entities.yy",
+    "name": "misc",
+    "path": "folders/Sprites/misc.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_hazard_acid",

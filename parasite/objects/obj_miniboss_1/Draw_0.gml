@@ -13,7 +13,7 @@ if knockback {
 	}
 	 
 	var HP = myHP/5
-	draw_healthbar(x-64,y-100,x+64,y-90,HP,c_white,c_red,c_green,0,true,true) 
+	draw_healthbar(x-32,y-64,x+32,y-90,HP,c_white,c_red,c_green,0,true,true) 
 } else {
 	initial_knockback = true
 }
