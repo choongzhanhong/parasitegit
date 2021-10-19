@@ -28,6 +28,6 @@ if myHP <= 200 {
 	current_cooldown = 0.5 //enraged, fire rate increase	
 }
 if myHP <= 0 {
+	instance_destroy(myEye)
 	instance_destroy()
-	
 }
