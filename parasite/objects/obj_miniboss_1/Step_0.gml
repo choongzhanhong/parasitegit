@@ -29,4 +29,5 @@ if myHP <= 200 {
 }
 if myHP <= 0 {
 	instance_destroy()
+	
 }
