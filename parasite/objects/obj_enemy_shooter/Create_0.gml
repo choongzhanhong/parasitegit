@@ -8,6 +8,12 @@ move_speed = 200;
 myHP=25;
 myMaxHP=25;
 
+healthbar_width = 100;
+healthbar_height = 12;
+healthbar_scale = 1/3;
+y_health_offset = -23;
+x_health_offset = -15;
+
 cooldown_attack = 2;
 current_cooldown = 2;
 dead = false;
