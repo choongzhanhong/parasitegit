@@ -5,7 +5,14 @@ knockback = false;
 initial_knockback = true;
 knockback_timer = 0;
 move_speed = 200;
-myHP=500;
+myHP=700;
+myMaxHP = 700;
+
+healthbar_width = 100;
+healthbar_height = 12;
+healthbar_scale = 1;
+y_health_offset = -75;
+x_health_offset = -55;
 
 cooldown_attack = 0;
 current_cooldown = 2;

@@ -62,7 +62,7 @@ if (shoot >= fire_rate) {//once shoot reaches our fire rate
 }
 
 
-if (myHP > 250) {
+if (myHP > 350) {
 	if (ring_shoot=0) {
 		ring_shoot += 1;
 		for (var i=0;i<20;i++) {//loop for each bullet
@@ -84,12 +84,12 @@ if (myHP > 250) {
 	}
 }
 
-if (myHP < 500) && (myHP > 250) {
+if (myHP < 700) && (myHP > 350) {
 	bullets = 4;
 	spread = 30;
 }
 
-if (myHP <= 250) {
+if (myHP <= 350) {
 	bullet_accel = -0.01;
 	
 	bullets = 2;

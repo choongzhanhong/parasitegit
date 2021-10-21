@@ -2,6 +2,13 @@
 // You can write your code in this editor
 myMaxHP = 25
 myHP = 25
+
+healthbar_width = 100;
+healthbar_height = 12;
+healthbar_scale = 1/3;
+y_health_offset = -15;
+x_health_offset = -13;
+
 move_speed = 10 //old: 10px per second
 knockback = false
 knockback_timer = 0;
