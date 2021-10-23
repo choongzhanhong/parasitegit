@@ -9,6 +9,8 @@ with(other){ //other is player
 		if lives <3 {
 			lives +=1
 			instance_create_layer(x,y,"Effects_Fg", obj_life)
+			var notif = instance_create_layer(x,y,"Effects_Fg", obj_player_msg)
+			notif.msg = "+1 Life"
 		}
 	}
 	instance_create_layer(other.x,other.y,"Effects_Fg",obj_plus)

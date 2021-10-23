@@ -19,6 +19,9 @@ for (var i=0; i<lives; i++) {
 	}
 
 draw_text(400,20,"DNA: "+string(global.dna))
+draw_sprite(spr_dna,0,450,30)
+
+draw_text(530,20,"Total Food: "+string(global.food))
 }
 
 //draw pause text

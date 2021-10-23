@@ -1,1 +1,1 @@
-Message = "The door shows how much DNA you need. Go collect them!"
+Message = "The number shows how much DNA you need to break the rock. Go collect them!"

@@ -1,1 +1,1 @@
-Message = "Click to attack the wall."
+Message = "Click to attack the rock."
