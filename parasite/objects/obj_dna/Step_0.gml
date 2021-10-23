@@ -6,6 +6,8 @@ if place_meeting(x,y,obj_bacteria) {
 		global.dna+=1
 		obj_bacteria.image_xscale *=1.1
 		obj_bacteria.image_yscale *=1.1
+		//add dna to global collection
+		array_push(global.collected_dna, id)
 		instance_destroy()
 	}
 }

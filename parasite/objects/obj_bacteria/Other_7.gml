@@ -3,7 +3,6 @@
 
 //death
 if sprite_index == sprites[3]{
-	global.food -= 100
 	room_goto(rm_end)
 	//this seems to be ok
 	instance_destroy(obj_bacteria)

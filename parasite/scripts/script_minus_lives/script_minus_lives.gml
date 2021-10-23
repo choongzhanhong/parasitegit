@@ -6,5 +6,10 @@ function minus_lives(player){
 			player.dead = true
 			instance_destroy(obj_player_effects)
 			player.sprite_index = player.sprites[3]
+			global.food -= 40 {
+				if global.food <= 0 {
+					global.food = 0
+				}
+			}
 	}
 }
