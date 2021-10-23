@@ -9,7 +9,7 @@ if (room==rm_1 or room==rm_2 or room==rm_3)  {
 
 draw_text(75, 20, "FOOD: ")
 draw_sprite_ext(spr_foodbar_bg, 0, 100, 26, 3, 3, 0, c_white, 1)
-draw_sprite_stretched(spr_foodbar, 0, 100, 26, (((food%maxfood)/maxfood)*78)*3, 3*3)
+draw_sprite_stretched(spr_foodbar, 0, 100, 26, (((global.food%maxfood)/maxfood)*78)*3, 3*3)
 draw_sprite_ext(spr_foodbar_border, 0, 100, 26, 3, 3, 0, c_white, 1)
 	
 
@@ -18,7 +18,7 @@ for (var i=0; i<lives; i++) {
 	draw_sprite(spr_life,0,75 + (i*64), 80)	
 	}
 
-draw_text(400,20,"DNA: "+string(obj_game.tier))
+draw_text(400,20,"DNA: "+string(global.dna))
 }
 
 //draw pause text

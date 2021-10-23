@@ -8,15 +8,15 @@ global.seconds_passed = 0;
 /*
 This section is to keep track of the player's FOOD and TIER.
 */
-
-food = 0;
+if not variable_global_exists("food") {
+	global.food = 0;
+}
 maxfood = 40;
-//Tier 0: max 200
-//Tier 1: max 500
-//Tier 2: max 1000
-//Tier 3: max 2000
 
-tier = 0;
+//dna tier
+if not variable_global_exists("dna") {
+	global.dna = 0;
+}
 
 paused = false
 lives = 3
@@ -27,4 +27,7 @@ draw_set_halign(fa_center);
 
 if not variable_global_exists("checkpoint") {
 	global.checkpoint = rm_1
+}
+if not variable_global_exists("cp_xy") {
+	global.cp_xy = [80,142]
 }

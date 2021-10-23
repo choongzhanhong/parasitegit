@@ -22,13 +22,9 @@ with(other){
 		
 		other.iframe_timer = 2 //2 second invulnerability
 		instance_create_layer(other.x,other.y,"Effects_Fg",obj_iframe)
-		lives -= 1
-		if lives <=0 {
-			other.dead = true
-			instance_destroy(obj_player_effects)
-			other.sprite_index = other.sprites[3]
-			
-		}
+		
+		
+		minus_lives(obj_bacteria)
 	}
 }
 

@@ -3,21 +3,18 @@
 
 //always start room with max lives
 lives = 3
-
+x = global.cp_xy[0]
+y = global.cp_xy[1]
 
 
 if room == rm_2 {
-	//create aim reticle again
 instance_create_layer(x,y,"Effects_Fg",obj_aim)
-	x = 112
-	y = 15
+
 }
 
 if room == rm_3 {
-	//create aim reticle again
 instance_create_layer(x,y,"Effects_Fg",obj_aim)
-	x=303
-	y=593
+
 }
 
 
@@ -32,8 +29,8 @@ if room == rm_1_2 {
 
 //2nd stage
 if room == rm_2_1 {
-	obj_game.tier = 1
-	obj_game.food = 200
+	global.dna = 1
+	global.food = 200
 	obj_game.maxfood = 5
 	
 	//make the player shoot faster now
