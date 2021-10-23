@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_miniboss_1",
-    "path": "sprites/spr_miniboss_1/spr_miniboss_1.yy",
+    "name": "spr_miniboss_a",
+    "path": "sprites/spr_miniboss_a/spr_miniboss_a.yy",
   },
   "solid": false,
   "visible": true,
