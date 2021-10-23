@@ -17,6 +17,10 @@ with(other)
 			dead = true
 			sprite_index = sprites[3]	
 		}
+		
+		//create damage number at enemy location
+		var number = instance_create_layer(x,y,"Effects_Fg",obj_damage_number)
+		number.dmg = string(floor(obj_bacteria.myDamage))
 	}
 	
 }

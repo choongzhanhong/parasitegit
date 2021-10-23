@@ -7,6 +7,7 @@
     {"id":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},"order":4,},
     {"id":{"name":"sound_player_dmg","path":"sounds/sound_player_dmg/sound_player_dmg.yy",},"order":0,},
     {"id":{"name":"spr_enemy_attack","path":"sprites/spr_enemy_attack/spr_enemy_attack.yy",},"order":18,},
+    {"id":{"name":"obj_damage_number","path":"objects/obj_damage_number/obj_damage_number.yy",},"order":8,},
     {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},"order":0,},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},"order":0,},
     {"id":{"name":"obj_aim","path":"objects/obj_aim/obj_aim.yy",},"order":0,},
