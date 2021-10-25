@@ -109,6 +109,7 @@
     {"id":{"name":"obj_miniboss_1","path":"objects/obj_miniboss_1/obj_miniboss_1.yy",},"order":3,},
     {"id":{"name":"spr_bact_hostile_idle","path":"sprites/spr_bact_hostile_idle/spr_bact_hostile_idle.yy",},"order":1,},
     {"id":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},"order":10,},
+    {"id":{"name":"spr_dnabar","path":"sprites/spr_dnabar/spr_dnabar.yy",},"order":12,},
     {"id":{"name":"sound_enemy_bacteria_death","path":"sounds/sound_enemy_bacteria_death/sound_enemy_bacteria_death.yy",},"order":3,},
     {"id":{"name":"obj_overlay","path":"objects/obj_overlay/obj_overlay.yy",},"order":4,},
     {"id":{"name":"spr_bact_hostile_kb","path":"sprites/spr_bact_hostile_kb/spr_bact_hostile_kb.yy",},"order":2,},
