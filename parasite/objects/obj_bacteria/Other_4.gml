@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //always start room with max lives
-lives = 3
+lives = 4
 x = global.cp_xy[0]
 y = global.cp_xy[1]
 
