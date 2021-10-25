@@ -1,7 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
-myMaxHP = 1000
-myHP = 1000
+myMaxHP = 200
+myHP = 200
+
+healthbar_width = 100;
+healthbar_height = 12;
+healthbar_scale = 1/3;
+y_health_offset = -40;
+x_health_offset = -17;
 
 
 move_speed = 50
