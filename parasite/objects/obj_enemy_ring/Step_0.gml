@@ -47,7 +47,7 @@ if attacking {
 		//check if it will be stuck in wall 5 spaces away
 		if place_free(x+dx,y+dy) and !place_meeting(x+dx, y+dy, obj_Enemy) { 
 			direction = lockon
-			speed=3
+			speed=1.5
 		}
 		else {
 			speed = 0	
