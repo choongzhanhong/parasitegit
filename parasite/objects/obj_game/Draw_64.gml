@@ -32,6 +32,8 @@ for (var i=0; i<lives; i++) {
 draw_text(870,20,": "+string(global.dna))
 draw_sprite(spr_dna,0,850,32)
 
+draw_set_halign(fa_center)
+
 }
 
 //draw pause text
