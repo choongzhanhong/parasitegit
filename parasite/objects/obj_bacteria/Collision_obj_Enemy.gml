@@ -12,12 +12,12 @@ with(other){
 		
 		//aim the bacteria opposite the enemy [0,360)
 		var kb_dir = point_direction(x,y,other.x,other.y)
-		var dx = lengthdir_x(2,kb_dir) //the resulting knockback location
-		var dy = lengthdir_y(2,kb_dir)
+		var dx = lengthdir_x(4,kb_dir) //the resulting knockback location
+		var dy = lengthdir_y(4,kb_dir)
 		//check if it will be stuck in wall 5 spaces away
 		if place_free(other.x+dx,other.y+dy) { 
 			other.direction = kb_dir
-			other.speed=2
+			other.speed=4
 		}
 		
 		

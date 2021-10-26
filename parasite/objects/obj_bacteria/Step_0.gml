@@ -40,7 +40,7 @@ if moving  {
 
 if knockback {
 	if speed != 0 {
-	speed -= 0.5
+	speed -= 0.2
 	}
 	if speed<=0 {
 		speed = 0
