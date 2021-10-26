@@ -38,8 +38,9 @@ draw_set_halign(fa_center)
 
 //draw pause text
 if paused {
+	draw_rectangle_color(300,480,700,580,c_purple,c_purple,c_black,c_black,false)
 	draw_text(500,500,"PAUSED")	
-	draw_text(500,600,"Press R to Restart")	
+	draw_text(500,520,"Press R to Restart from checkpoint")	
 }
 
 else {

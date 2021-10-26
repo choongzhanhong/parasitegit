@@ -15,7 +15,7 @@ cooldown_lmb = 1//in seconds
 cooldown_lmb_current =1
 
 //attack damage
-myDamage =global.food*0.5 + 10
+myDamage =10
 
 //current HP and food level
 knockback = false
