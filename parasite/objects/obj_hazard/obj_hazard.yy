@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_hazard_acid",
-    "path": "sprites/spr_hazard_acid/spr_hazard_acid.yy",
+    "name": "spr_acid",
+    "path": "sprites/spr_acid/spr_acid.yy",
   },
   "solid": false,
   "visible": true,

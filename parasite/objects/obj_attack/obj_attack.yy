@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_attack_tier1b",
-    "path": "sprites/spr_attack_tier1b/spr_attack_tier1b.yy",
+    "name": "spr_attack",
+    "path": "sprites/spr_attack/spr_attack.yy",
   },
   "solid": false,
   "visible": true,

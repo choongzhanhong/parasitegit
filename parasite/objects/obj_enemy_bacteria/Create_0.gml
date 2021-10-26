@@ -12,6 +12,7 @@ x_health_offset = -13;
 move_speed = 10 //old: 10px per second
 knockback = false
 knockback_timer = 0;
+initial_knockback = 0
 dead=false
 weight = 2
 //0: idle, 1: moving, 2: knockback, 3:die

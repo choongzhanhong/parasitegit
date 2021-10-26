@@ -105,8 +105,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "misc",
-    "path": "folders/Sprites/misc.yy",
+    "name": "walls",
+    "path": "folders/Sprites/walls.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_hazard_acid",

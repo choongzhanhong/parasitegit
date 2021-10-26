@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "LEGACY",
-    "path": "folders/Sprites/STAGE1/LEGACY.yy",
+    "name": "misc",
+    "path": "folders/Sprites/misc.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_edible_1",
