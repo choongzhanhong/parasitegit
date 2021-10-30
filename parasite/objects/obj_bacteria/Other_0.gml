@@ -1,12 +1,15 @@
 /// @description change room
 // You can write your code in this editor
+global.CHECKPOINT.cp_food = global.food
 if room == rm_1 {
 	//set new checkpoint to next room's starting
-	global.cp_xy = [112,15]
+	global.CHECKPOINT.cp_x = 112
+	global.CHECKPOINT.cp_y = 15
 	room_goto(rm_2)	
 }
 if room == rm_2 {
-	global.cp_xy = [302,594]
+	global.CHECKPOINT.cp_x = 302
+	global.CHECKPOINT.cp_y = 594
 	room_goto(rm_3)	
 }
 

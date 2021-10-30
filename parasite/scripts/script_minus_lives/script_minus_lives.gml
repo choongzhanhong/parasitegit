@@ -3,13 +3,14 @@
 function minus_lives(player){
 	lives -= 1
 	if lives <=0 {
-			player.dead = true
-			instance_destroy(obj_player_effects)
-			player.sprite_index = player.sprites[3]
-			global.food -= 20 {
-				if global.food <= 0 {
-					global.food = 0
-				}
-			}
-	}
+		player.dead = true
+		instance_destroy(obj_player_effects)
+		player.sprite_index = player.sprites[3]
+		global.food -= 20
+		
+		//ensure food will never go below checkpoint
+		if global.food <= global.CHECKPOINT.cp_food {
+			global.food = global.CHECKPOINT.cp_food
+		}
+	}	
 }

@@ -3,6 +3,6 @@
 
 //edit this in instance creation code
 
-room_pointer = global.checkpoint
+room_pointer = global.CHECKPOINT.cp_room
 
 sprites = [spr_menu_cont, spr_menu_cont2]
