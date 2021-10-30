@@ -184,6 +184,7 @@
     {"id":{"name":"spr_bact_moving","path":"sprites/spr_bact_moving/spr_bact_moving.yy",},"order":0,},
     {"id":{"name":"rm_2_2","path":"rooms/rm_2_2/rm_2_2.yy",},"order":3,},
     {"id":{"name":"rm_3","path":"rooms/rm_3/rm_3.yy",},"order":6,},
+    {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},"order":22,},
     {"id":{"name":"obj_walls","path":"objects/obj_walls/obj_walls.yy",},"order":2,},
     {"id":{"name":"spr_life_extra","path":"sprites/spr_life_extra/spr_life_extra.yy",},"order":16,},
     {"id":{"name":"obj_pause_menu","path":"objects/obj_pause_menu/obj_pause_menu.yy",},"order":5,},

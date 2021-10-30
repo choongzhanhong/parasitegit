@@ -5,8 +5,16 @@ knockback = false;
 initial_knockback = true;
 knockback_timer = 0;
 move_speed = 200;
-myHP = 300;
-myMaxHP = 300;
+myHP = 200;
+myMaxHP = 200;
+
+angry1 = myMaxHP/2;
+angry2 = myMaxHP/4;
+
+
+
+
+
 
 healthbar_width = 100;
 healthbar_height = 12;
@@ -15,7 +23,11 @@ y_health_offset = -40;
 x_health_offset = -17;
 
 cooldown_attack = 0;
+
+//2 seconds per shot
 current_cooldown = 2;
+
+
 dead = false;
 weight = 10; //effectively means it wont get knocked back
 

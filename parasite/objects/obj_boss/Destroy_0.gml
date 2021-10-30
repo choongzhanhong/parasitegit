@@ -7,4 +7,5 @@ repeat(30){
 	instance_create_layer(x,y,"Edibles", obj_edible)
 }
 
+instance_destroy(obj_miniboss_projectile)
 instance_create_layer(x,y,"Edibles", obj_dna)
