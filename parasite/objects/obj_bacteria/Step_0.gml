@@ -1,6 +1,15 @@
 /// @description Steps
 // You can write your code in this editor
 
+
+#region player variable updating
+//update player damage
+myDamage = global.food*0.1 + 10
+image_xscale = global.size
+image_yscale = global.size
+
+#endregion
+
 //MOVEMENT
 //you only get to move if you're not knocked back
 if not (knockback or sprite_index==sprites[3]) {
@@ -71,8 +80,3 @@ else {
 }
 #endregion
 
-#region player variable updating
-//update player damage
-myDamage = global.food*0.1 + 10
-
-#endregion

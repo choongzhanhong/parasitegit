@@ -5,4 +5,4 @@
 
 room_pointer = rm_1
 
-sprites=[spr_button1,spr_button2,spr_button3,spr_button4]
+sprites = [spr_menu_ng, spr_menu_ng2]

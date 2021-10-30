@@ -27,12 +27,29 @@ maxfood = 40;
 if not variable_global_exists("dna") {
 	global.dna = 0;
 }
+if not variable_global_exists("collected_dna") {
+	global.collected_dna = []
+}
+//checkpoint room
 if not variable_global_exists("checkpoint") {
 	global.checkpoint = rm_1
 }
+//checkpoint coordinates
 if not variable_global_exists("cp_xy") {
 	global.cp_xy = [80,142]
 }
-if not variable_global_exists("collected_dna") {
-	global.collected_dna = []
+//checkpoint food
+if not variable_global_exists("cp_food") {
+	global.cp_food = 0	
+}
+
+if not variable_global_exists("size") {
+	global.size = 1
+}
+
+if not variable_global_exists("CHECKPOINT") {
+	//create a struct
+	global.CHECKPOINT = {
+		
+	}
 }
