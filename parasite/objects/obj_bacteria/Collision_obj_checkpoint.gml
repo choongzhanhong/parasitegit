@@ -5,6 +5,7 @@
 
 if other.image_index == 0 {
 	other.image_index = 1
+	global.CHECKPOINT.cp_id = other.id
 	global.CHECKPOINT.cp_x = other.x
 	global.CHECKPOINT.cp_y = other.y
 	global.CHECKPOINT.cp_food = global.food

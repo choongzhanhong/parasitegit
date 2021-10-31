@@ -34,6 +34,7 @@ if not variable_global_exists("collected_dna") {
 if not variable_global_exists("CHECKPOINT") {
 	//create a struct
 	global.CHECKPOINT = {
+		cp_id : noone,
 		cp_room : rm_1,
 		cp_x : 80,
 		cp_y : 142,

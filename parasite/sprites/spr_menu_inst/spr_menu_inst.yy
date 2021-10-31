@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "menu",
-    "path": "folders/Sprites/ui/menu.yy",
+    "name": "main menu",
+    "path": "folders/Sprites/menu/main menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_menu_inst",
