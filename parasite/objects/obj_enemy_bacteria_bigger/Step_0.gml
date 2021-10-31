@@ -16,12 +16,12 @@ if not (knockback or dead) {
 		mp_potential_step_object(obj_bacteria.x, obj_bacteria.y,0.3, obj_hazard)
 		sprite_index = sprites[1]
 		//problematic
-		//if (direction > 90 and direction < 270 ){
-		//	image_xscale = -1	
-		//}
-		//else {
-		//	image_xscale = 1	
-		//}
+		if (direction > 90 and direction < 270 ){
+			image_xscale = -1	
+		}
+		else {
+			image_xscale = 1	
+		}
 		
 		
 		//#region old movement

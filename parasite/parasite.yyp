@@ -8,7 +8,7 @@
     {"id":{"name":"spr_instructions","path":"sprites/spr_instructions/spr_instructions.yy",},"order":0,},
     {"id":{"name":"rm_1_old","path":"rooms/rm_1_old/rm_1_old.yy",},"order":4,},
     {"id":{"name":"sound_player_dmg","path":"sounds/sound_player_dmg/sound_player_dmg.yy",},"order":0,},
-    {"id":{"name":"spr_enemy_attack","path":"sprites/spr_enemy_attack/spr_enemy_attack.yy",},"order":18,},
+    {"id":{"name":"spr_enemy_attack","path":"sprites/spr_enemy_attack/spr_enemy_attack.yy",},"order":5,},
     {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},"order":0,},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},"order":0,},
     {"id":{"name":"seq_splash_logo_Events","path":"scripts/seq_splash_logo_Events/seq_splash_logo_Events.yy",},"order":1,},

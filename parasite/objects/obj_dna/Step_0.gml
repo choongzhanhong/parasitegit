@@ -5,7 +5,8 @@ if place_meeting(x,y,obj_bacteria) {
 	if count >= maxCount {
 		global.dna+=1
 		
-		
+		var notif = instance_create_layer(x,y,"Effects_Fg", obj_player_msg)
+		notif.msg = "Size UP!"
 		//add dna to global collection
 		array_push(global.collected_dna, id)
 		
