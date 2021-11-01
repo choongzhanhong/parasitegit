@@ -3,3 +3,4 @@
 
 confirmation = false
 action = function() {}
+msg = "Are you sure?"

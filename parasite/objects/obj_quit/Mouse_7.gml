@@ -5,3 +5,4 @@ image_yscale = 1
 
 obj_menu.action = action
 obj_menu.confirmation = true
+obj_menu.msg = "This will exit the game."

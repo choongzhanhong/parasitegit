@@ -3,6 +3,6 @@
 
 room_pointer = rm_instructions
 action = function(){
-	room_goto(room_pointer)	
+	game_end();
 }
 sprites = [spr_menu_inst, spr_menu_inst2]
