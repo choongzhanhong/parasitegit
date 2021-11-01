@@ -19,7 +19,8 @@ current_cooldown = 2;
 dead = false;
 weight = 10; //effectively means it wont get knocked back
 
-sprites =[spr_miniboss_1,spr_miniboss_1_angry,spr_miniboss_1_hit,spr_miniboss_1_angry2];
+//0: idle, 1: unused, 2: kb, 3: death
+sprites =[spr_boss_a,spr_boss_angry,spr_boss_kb,spr_boss_dead];
 
 /***************************************************
 bullet_object - determines which object to use as a bullet

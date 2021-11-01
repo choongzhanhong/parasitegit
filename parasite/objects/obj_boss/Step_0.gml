@@ -85,11 +85,19 @@ if (myHP > 350) {
 }
 
 if (myHP < 700) && (myHP > 350) {
+	
+	
 	bullets = 4;
 	spread = 30;
 }
 
 if (myHP <= 350) {
+	
+	//spawn a ring enemy!!
+	if !instance_exists(obj_enemy_ring) {
+		instance_create_layer(304,592,"Entities", obj_enemy_ring)
+	}
+	
 	bullet_accel = -0.01;
 	
 	bullets = 2;
@@ -102,7 +110,8 @@ if (myHP <= 350) {
 	
 	fire_rate = 10;
 }
-
+/**
 if myHP <= 0 {
 	instance_destroy()
 }
+**/

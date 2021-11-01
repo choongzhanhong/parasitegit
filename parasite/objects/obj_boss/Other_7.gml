@@ -1,9 +1,11 @@
 /// @description sprite
 // You can write your code in this editor
 
+//death
+if sprite_index = sprites[3] {
+	instance_destroy(self)
+}
 
-sprite_index = sprites[0] // temporary set as one sprite until sprite assets are done
-/**
 if knockback {
 	sprite_index = sprites[2] //knockback	
 }
@@ -11,10 +13,6 @@ if knockback {
 else if myHP > 350  {
 	sprite_index = sprites[0]
 }
-else if myHP > 200{ //angry
+else { //angry
 	sprite_index = sprites[1]	
 }
-else { //super angry
-	sprite_index = sprites[3]	
-}
-**/
