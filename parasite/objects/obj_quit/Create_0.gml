@@ -5,4 +5,4 @@ room_pointer = rm_instructions
 action = function(){
 	game_end();
 }
-sprites = [spr_menu_inst, spr_menu_inst2]
+sprites = [spr_menu_quit, spr_menu_quit2]

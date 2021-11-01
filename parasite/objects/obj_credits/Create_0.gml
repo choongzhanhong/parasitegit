@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 room_pointer = rm_credits
-sprites = [spr_menu_inst, spr_menu_inst2]
+sprites = [spr_menu_credits, spr_menu_credits2]
