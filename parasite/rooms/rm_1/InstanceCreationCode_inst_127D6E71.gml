@@ -1,0 +1,1 @@
+Message = "Grow stronger and bigger! Collect food as you kill enemies! Gain extra life when you are full..."
