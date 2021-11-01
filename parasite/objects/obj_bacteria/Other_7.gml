@@ -3,9 +3,9 @@
 
 //death
 if sprite_index == sprites[3]{
-	room_goto(rm_end)
+	obj_game.lose = true
 	//this seems to be ok
-	instance_destroy(obj_bacteria)
+	//instance_destroy(obj_bacteria)
 }
 //if knockback, play knockback animation instead
 if knockback {

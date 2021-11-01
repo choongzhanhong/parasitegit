@@ -1,1 +1,1 @@
-Message = "Watch out! This one aims at you."
+Message = "Watch out! This one in the room on the right aims at you."

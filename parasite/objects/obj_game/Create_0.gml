@@ -42,3 +42,6 @@ if not variable_global_exists("CHECKPOINT") {
 		cp_size : 1,
 	}
 }
+
+
+lose = false

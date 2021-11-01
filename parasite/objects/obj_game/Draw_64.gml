@@ -45,6 +45,10 @@ if paused {
 	draw_text(500,560,"Esc to unpause")	
 }
 
-else {
+if lose {
+	draw_rectangle_color(300,480,700,600,c_purple,c_purple,c_black,c_black,false)
+	draw_text(500,500,"You died!")
+	draw_text(500,520,"Press R to restart room from checkpoint")
+	draw_text(500,540,"Press M to return to Menu")
 	
 }
