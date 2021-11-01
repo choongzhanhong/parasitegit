@@ -10,9 +10,12 @@ if place_meeting(x,y,obj_bacteria) {
 		//add dna to global collection
 		array_push(global.collected_dna, id)
 		
+		var len = array_length(global.collected_dna)
+		
+		if len >= 6 {room_goto(rm_win)}
 		//change size here
 		size_array = [0.25, 0.5, 0.75, 0.95, 1.15, 1.5]
-		var _size = 1 + size_array[array_length(global.collected_dna)-1]
+		var _size = 1 + size_array[len-1]
 		global.CHECKPOINT.cp_size = _size
 		obj_bacteria.image_xscale = _size
 		obj_bacteria.image_yscale = _size

@@ -35,7 +35,7 @@
     "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy_ring",
+  "name": "obj_enemy_ring_old",
   "tags": [],
   "resourceType": "GMObject",
 }

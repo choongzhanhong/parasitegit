@@ -16,15 +16,33 @@ else {
 if attacking {
 	//charging up for 3s (4-1)
 	if current_cooldown>=1 {	
+		var move_xinput = 0;
+		var move_yinput = 0;
+		//Your Move Speed
+		var move_speed_this_frame = move_speed*global.seconds_passed;
+		var this_angle = point_direction(x,y,obj_bacteria.x,obj_bacteria.y);
 		
-		if !collision_line(x,y,obj_bacteria.x, obj_bacteria.y,obj_walls,false,true){
-			lockon = point_direction(x,y,obj_bacteria.x,obj_bacteria.y)
-			image_angle = lockon
-		}
+		//the x direction
+		move_xinput += lengthdir_x(1, this_angle);
+		//Change sprite direction if moving left/right
+		
+		if move_xinput<0 {image_xscale = abs(image_xscale)*-1}
+		else {image_xscale = abs(image_xscale)*1}	
+		
+		//move in y direction
+		move_yinput += lengthdir_y(1, this_angle);
+		
+		
+		//move_xinput omitted
+		var move_dir = point_direction(0,0,0,move_yinput);
+		move(move_speed_this_frame, move_dir);
+		
+		
+		lockon = point_direction(x,y,obj_bacteria.x,obj_bacteria.y)
 	}
 	//charging at you for 1s
 	else {
-		var dx = lengthdir_x(5,lockon) 
+		var dx = lengthdir_x(3,lockon) //the resulting knockback location
 		var dy = lengthdir_y(5,lockon)
 		//check if it will be stuck in wall 5 spaces away
 		if place_free(x+dx,y+dy) and !place_meeting(x+dx, y+dy, obj_Enemy) { 
@@ -34,15 +52,7 @@ if attacking {
 		else {
 			speed = 0	
 		}
-		shoot = 0;
-		
-		sprite_index = sprites[1]
-	}
-}
-//not attacking
-else {
-	
-	//shoot ring
+		//shoot ring
 		bb = max(1,bullets-1);
 		aa = max(1,total_arrays-1);
 
@@ -63,6 +73,13 @@ else {
 				bullet.acc = bullet_accel;
 			}
 		}
+		sprite_index = sprites[1]
+	}
+}
+//not attacking
+else {
+	shoot = 0;
+	
 	if not knockback{
 		sprite_index = sprites[4]
 		speed = 0

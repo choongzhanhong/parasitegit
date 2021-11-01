@@ -21,7 +21,7 @@ attacking = true
 lockon = false
 
 //0: aiming, 1: charging, 2: knockback, 3: die, 4: rest 
-sprites = [spr_ring,spr_ring,spr_ring_kb,spr_explosion,spr_ring]
+sprites = [spr_ring,spr_ring,spr_ring_kb,spr_ring_dead,spr_ring]
 
 
 bullet_object = obj_miniboss_projectile;
