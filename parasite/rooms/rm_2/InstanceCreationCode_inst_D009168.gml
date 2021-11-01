@@ -1,0 +1,1 @@
+Message = "Remember that you can destroy projectiles with your attack."
