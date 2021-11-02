@@ -20,7 +20,3 @@ else {
 	knockback = false
 	knockback_timer = 0	
 }
-
-if myHP <= 0 {
-	instance_destroy()
-}

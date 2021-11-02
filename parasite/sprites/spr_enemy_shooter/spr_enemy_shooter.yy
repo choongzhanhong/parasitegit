@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Sprites/Enemies.yy",
+    "name": "shooter",
+    "path": "folders/Sprites/Enemies/shooter.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_enemy_shooter",

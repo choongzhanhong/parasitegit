@@ -19,8 +19,8 @@ current_cooldown = 2;
 dead = false;
 weight = 10; //effectively means it wont get knocked back
 
-//0: idle, 1: unused, 2: kb, 3: death
-sprites =[spr_boss_a,spr_boss_angry,spr_boss_kb,spr_boss_dead];
+//0: idle, 1: angry1, 2: kb, 3: death, 4: angry2
+sprites =[spr_boss_a,spr_boss_angry,spr_boss_kb,spr_boss_dead,spr_boss_angry2];
 
 /***************************************************
 bullet_object - determines which object to use as a bullet
@@ -82,3 +82,6 @@ b_ang = spread/bullets;
 
 ring_shoot_rate = 400;
 ring_shoot = 0;
+
+
+myEye = instance_create_layer(x,y,"Effects_fg",obj_boss_eye)

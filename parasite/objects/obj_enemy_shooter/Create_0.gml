@@ -18,4 +18,5 @@ cooldown_attack = 2;
 current_cooldown = 2;
 dead = false;
 weight = 10; //effectively means it wont get knocked back
-sprites =[spr_enemy_shooter,spr_enemy_shooter,spr_enemy_shooter_kb,spr_enemy_shooter_kb];
+//0: idle, 1: idle, 2: kb, 3:death
+sprites =[spr_enemy_shooter,spr_enemy_shooter,spr_enemy_shooter_kb,spr_enemy_shooter_death];
