@@ -1,6 +1,6 @@
 # Parasite
 
-[![DinoGame](https://github.com/ChenXJ98/parasitegit/images/1.png)]
+[![Parasite](https://github.com/ChenXJ98/parasitegit/blob/main/images/1.png)]
 
  This is a simple 2D shooter done under the National University of Singapore as part of a group project for NM3216(Game Design).
 
