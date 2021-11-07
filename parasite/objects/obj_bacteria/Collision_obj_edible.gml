@@ -3,7 +3,7 @@
 with(other){ //other is player
 	//destroy the edible	
 	instance_destroy()
-	audio_play_sound(sound_edible_eaten, 3, false)
+	audio_play_sound(sound_edible_eaten_2, 3, false)
 	global.food+= 1
 	if global.food % 40 == 0 {
 		//obj_bacteria.myDamage += 5

@@ -236,6 +236,7 @@
     {"id":{"name":"obj_bacteria","path":"objects/obj_bacteria/obj_bacteria.yy",},"order":9,},
     {"id":{"name":"spr_boss_dead","path":"sprites/spr_boss_dead/spr_boss_dead.yy",},"order":7,},
     {"id":{"name":"spr_miniboss_1_angry2","path":"sprites/spr_miniboss_1_angry2/spr_miniboss_1_angry2.yy",},"order":2,},
+    {"id":{"name":"sound_edible_eaten_2","path":"sounds/sound_edible_eaten_2/sound_edible_eaten_2.yy",},"order":11,},
     {"id":{"name":"obj_glass","path":"objects/obj_glass/obj_glass.yy",},"order":3,},
     {"id":{"name":"spr_bact_hostile_moving","path":"sprites/spr_bact_hostile_moving/spr_bact_hostile_moving.yy",},"order":3,},
     {"id":{"name":"spr_bact_hostile_bigger_edible","path":"sprites/spr_bact_hostile_bigger_edible/spr_bact_hostile_bigger_edible.yy",},"order":1,},

@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.1,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sound_boss_track.mp3",
-  "duration": 172.781326,
+  "soundFile": "sound_edible_eaten_2.wav",
+  "duration": 1.089021,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_boss_track",
+  "name": "sound_edible_eaten_2",
   "tags": [],
   "resourceType": "GMSound",
 }
