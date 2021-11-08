@@ -8,16 +8,16 @@ if not dead {
 	image_angle -= 0.5	
 }
 
-if not (knockback or dead) {
-	//if there is line of sight
-	if not collision_line(x,y,obj_bacteria.x,obj_bacteria.y,obj_walls,false,false) {
-		sprite_index = sprites[1]
-	}
-	else //not moving
-	{
-		sprite_index = sprites[0]
-	}
-}
+//if not (knockback or dead) {
+//	//if there is line of sight
+//	if not collision_line(x,y,obj_bacteria.x,obj_bacteria.y,obj_walls,false,false) {
+//		sprite_index = sprites[1]
+//	}
+//	else //not moving
+//	{
+//		sprite_index = sprites[0]
+//	}
+//}
 
 
 

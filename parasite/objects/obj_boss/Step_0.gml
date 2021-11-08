@@ -95,7 +95,7 @@ if (myHP <= 350) {
 	
 	//spawn a ring enemy!!
 	if !instance_exists(obj_enemy_ring) {
-		instance_create_layer(304,592,"Entities", obj_enemy_ring)
+		instance_create_layer(304,562,"Entities", obj_enemy_ring)
 	}
 	
 	bullet_accel = -0.01;

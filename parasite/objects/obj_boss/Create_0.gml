@@ -5,8 +5,8 @@ knockback = false;
 initial_knockback = true;
 knockback_timer = 0;
 move_speed = 200;
-myHP=700;
-myMaxHP = 700;
+myHP=1000;
+myMaxHP = 1000;
 
 healthbar_width = 100;
 healthbar_height = 12;

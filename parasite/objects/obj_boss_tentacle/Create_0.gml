@@ -2,8 +2,8 @@
 // You can write your code in this editor
 /// @description Insert description here
 // You can write your code in this editor
-myMaxHP = 100
-myHP = 100
+myMaxHP = 400
+myHP = 400
 
 healthbar_width = 100;
 healthbar_height = 12;
