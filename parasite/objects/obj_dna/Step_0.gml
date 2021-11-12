@@ -20,6 +20,7 @@ if place_meeting(x,y,obj_bacteria) {
 		obj_bacteria.image_xscale = _size
 		obj_bacteria.image_yscale = _size
 		instance_destroy()
+		audio_play_sound(sound_dna, 5, false)
 	}
 }
 else {
