@@ -64,7 +64,7 @@ if (shoot >= fire_rate) {//once shoot reaches our fire rate
 
 if (myHP > 350) {
 	if (ring_shoot=0) {
-		ring_shoot += 1;
+		ring_shoot += global.seconds_passed//1;
 		for (var i=0;i<20;i++) {//loop for each bullet
 			//determine the point where the bullets will fire from
 			xx = x+lengthdir_x(0,18*i);
@@ -77,8 +77,7 @@ if (myHP > 350) {
 		}
 	}
 
-	ring_shoot += 1;//fire rate control
-
+	ring_shoot += global.seconds_passed//1;//fire rate control
 	if (ring_shoot >= ring_shoot_rate) {//once shoot reaches our fire rate
 	    ring_shoot = 0;//set it to 0 to shoot again
 	}
@@ -95,7 +94,8 @@ if (myHP <= 350) {
 	
 	//spawn a ring enemy!!
 	if !instance_exists(obj_enemy_ring) {
-		instance_create_layer(304,562,"Entities", obj_enemy_ring)
+		instance_create_layer(159,478,"Effects_Fg", obj_smoke)
+		instance_create_layer(159,478,"Entities", obj_enemy_ring)
 	}
 	
 	bullet_accel = -0.01;

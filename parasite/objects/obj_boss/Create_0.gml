@@ -5,8 +5,8 @@ knockback = false;
 initial_knockback = true;
 knockback_timer = 0;
 move_speed = 200;
-myHP=1000;
-myMaxHP = 1000;
+myHP=5000;
+myMaxHP = 5000;
 
 healthbar_width = 100;
 healthbar_height = 12;
@@ -80,7 +80,7 @@ y_offset = 0;
 b_ang = spread/bullets;
 
 
-ring_shoot_rate = 400;
+ring_shoot_rate = 7 //use seconds instead //400;
 ring_shoot = 0;
 
 

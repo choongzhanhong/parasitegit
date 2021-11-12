@@ -21,7 +21,9 @@ with(other)
 		}
 		
 		//create damage number at enemy location
-		var number = instance_create_layer(x,y,"Effects_Fg",obj_damage_number)
+		var xx = lengthdir_x(128,image_angle)
+		var yy = lengthdir_y(128,image_angle)
+		var number = instance_create_layer(x+xx,y+yy,"Effects_Fg",obj_damage_number)
 		number.dmg = string(floor(obj_bacteria.myDamage))
 	}
 	
