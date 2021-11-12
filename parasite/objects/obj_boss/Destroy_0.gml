@@ -13,3 +13,4 @@ with obj_boss_tentacle {
 }
 instance_destroy(obj_miniboss_projectile)
 instance_create_layer(x,y,"Edibles", obj_dna)
+instance_create_layer(x,y,"Entities", obj_enemy_ring)
