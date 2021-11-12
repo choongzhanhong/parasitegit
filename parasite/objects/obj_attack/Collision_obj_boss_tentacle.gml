@@ -5,7 +5,7 @@ with(other)
 {
 	if not (knockback or dead) {
 		sprite_index = sprites[2]
-		audio_play_sound(sound_player_dmg, 5, false)
+		audio_play_sound(sound_boss_get_hit, 5, false)
 		knockback = true
 		knockback_timer=0.5
 		////aim the enemy opposite the attack
