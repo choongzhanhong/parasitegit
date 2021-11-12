@@ -65,14 +65,15 @@ if (shoot >= fire_rate) {//once shoot reaches our fire rate
 if (myHP > 1000) {
 	if (ring_shoot=0) {
 		ring_shoot += global.seconds_passed//1;
-		for (var i=0;i<20;i++) {//loop for each bullet
+		ring_num = 40;
+		for (var i=0;i<ring_num;i++) {//loop for each bullet
 			//determine the point where the bullets will fire from
-			xx = x+lengthdir_x(0,18*i);
-			yy = y+lengthdir_y(0,18*i);
+			xx = x+lengthdir_x(0,(360/ring_num)*i);
+			yy = y+lengthdir_y(0,(360/ring_num)*i);
             
 			bullet = instance_create_layer(xx,yy,"Effects_Fg",bullet_object);//create a bullet at the desired location
-			bullet.direction = 18*i;//give that bullet the desired direction
-			bullet.image_angle = 18*i;//set the bullet's image_angle so it faces the same direction
+			bullet.direction = (360/ring_num)*i;//give that bullet the desired direction
+			bullet.image_angle = (360/ring_num)*i;//set the bullet's image_angle so it faces the same direction
 			bullet.speed = 1.5;//give the bullet the desired speed
 		}
 	}
