@@ -1,0 +1,1 @@
+Message = "Those tentacles are scary. Maybe I can weaken the enemy by destroying them first.."
