@@ -83,14 +83,14 @@ if (myHP > 350) {
 	}
 }
 
-if (myHP < 700) && (myHP > 350) {
+if (myHP <= 3000) && (myHP > 1000) {
 	
 	
 	bullets = 4;
 	spread = 30;
 }
 
-if (myHP <= 350) {
+if (myHP <= 1000) {
 	
 	//spawn a ring enemy!!
 	if !instance_exists(obj_enemy_ring) {

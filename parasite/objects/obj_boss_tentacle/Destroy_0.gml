@@ -9,5 +9,5 @@ repeat(40) {
 if instance_exists(obj_boss){
 	obj_boss.myHP -=1000
 	obj_boss.knockback = true
-	obj_boss.knockback_timer = 1
+	obj_boss.knockback_timer = 0.5
 }

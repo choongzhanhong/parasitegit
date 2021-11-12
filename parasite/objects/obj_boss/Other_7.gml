@@ -11,11 +11,11 @@ if knockback {
 }
 
 //normal
-else if myHP >700 {
+else if myHP >3000 {
 	sprite_index = sprites[0]	
 }
 //angry1
-else if myHP > 350  {
+else if myHP > 1000  {
 	sprite_index = sprites[1]
 }
 else { //angry2
