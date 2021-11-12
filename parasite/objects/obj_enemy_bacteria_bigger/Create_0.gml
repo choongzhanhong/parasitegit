@@ -19,3 +19,5 @@ cooldown_attack = 2
 current_cooldown = 2
 //0:idle, 1: moving, 2: knockback, 3: die
 sprites = [spr_bact_hostile_bigger_idle,spr_bact_hostile_bigger_moving,spr_bact_hostile_bigger_kb,spr_bact_hostile_bigger_die]
+
+myTelegraph = instance_create_layer(x,y,"Effects_Fg",obj_telegraph_small)

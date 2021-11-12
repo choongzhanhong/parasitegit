@@ -9,3 +9,4 @@ repeat(10) {
 	edible.speed = 1
 	
 }
+instance_destroy(myTelegraph)

@@ -4,13 +4,19 @@
 // You can write your code in this editor
 
 if not (knockback or dead) {
+	myTelegraph.x = x
+	myTelegraph.y = y
 	//if there is line of sight
 	if not collision_line(x,y,obj_bacteria.x,obj_bacteria.y,obj_walls,false,false) {
 		//if attacking, don't move
+		if current_cooldown >=1.5 {
+			myTelegraph.attack = true
+		}
 		if current_cooldown>=cooldown_attack {
 			var attack = instance_create_layer(x,y,"Effects_Fg",obj_enemy_attack)
 			attack.image_angle = point_direction(x,y,obj_bacteria.x,obj_bacteria.y)
 			current_cooldown = 0
+			myTelegraph.attack = false
 		}
 		else {
 		mp_potential_step_object(obj_bacteria.x, obj_bacteria.y,0.3, obj_hazard)
