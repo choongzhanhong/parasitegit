@@ -38,6 +38,10 @@ draw_set_halign(fa_center)
 
 //draw pause text
 if paused {
+	//create overlay over the game
+	draw_set_alpha(0.5)
+	draw_rectangle_color(0,0,1000,1000,c_black,c_black,c_black,c_black,false)
+	draw_set_alpha(1)
 	draw_rectangle_color(300,480,700,600,c_purple,c_purple,c_black,c_black,false)
 	draw_text(500,500,"PAUSED")	
 	draw_text(500,520,"Press R to restart room from checkpoint")

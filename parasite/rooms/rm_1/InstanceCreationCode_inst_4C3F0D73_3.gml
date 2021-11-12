@@ -1,1 +1,1 @@
-Message = "Congrats! Keep going"
+Message = "Congrats! Keep going..."
